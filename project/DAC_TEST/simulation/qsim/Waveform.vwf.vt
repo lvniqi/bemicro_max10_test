@@ -1,0 +1,2146 @@
+// Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, the Altera Quartus II License Agreement,
+// the Altera MegaCore Function License Agreement, or other 
+// applicable license agreement, including, without limitation, 
+// that your use is for the sole purpose of programming logic 
+// devices manufactured by Altera and sold by Altera or its 
+// authorized distributors.  Please refer to the applicable 
+// agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "09/04/2015 16:24:22"
+                                                                        
+// Verilog Self-Checking Test Bench (with test vectors) for design :    BeMicro_MAX10_top
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module BeMicro_MAX10_top_vlg_sample_tst(
+	ADT7420_CT,
+	ADT7420_INT,
+	ADT7420_SCL,
+	ADT7420_SDA,
+	ADXL362_INT1,
+	ADXL362_INT2,
+	ADXL362_MISO,
+	AIN,
+	EG_P1,
+	EG_P2,
+	EG_P3,
+	EG_P4,
+	EG_P5,
+	EG_P6,
+	EG_P7,
+	EG_P8,
+	EG_P9,
+	EG_P10,
+	EG_P11,
+	EG_P12,
+	EG_P13,
+	EG_P14,
+	EG_P15,
+	EG_P16,
+	EG_P17,
+	EG_P18,
+	EG_P19,
+	EG_P20,
+	EG_P21,
+	EG_P22,
+	EG_P23,
+	EG_P24,
+	EG_P25,
+	EG_P26,
+	EG_P27,
+	EG_P28,
+	EG_P29,
+	EG_P35,
+	EG_P36,
+	EG_P37,
+	EG_P38,
+	EG_P39,
+	EG_P40,
+	EG_P41,
+	EG_P42,
+	EG_P43,
+	EG_P44,
+	EG_P45,
+	EG_P46,
+	EG_P47,
+	EG_P48,
+	EG_P49,
+	EG_P50,
+	EG_P51,
+	EG_P52,
+	EG_P53,
+	EG_P54,
+	EG_P55,
+	EG_P56,
+	EG_P57,
+	EG_P58,
+	EG_P59,
+	EG_P60,
+	EXP_PRESENT,
+	GPIO_01,
+	GPIO_02,
+	GPIO_03,
+	GPIO_04,
+	GPIO_05,
+	GPIO_06,
+	GPIO_07,
+	GPIO_08,
+	GPIO_09,
+	GPIO_10,
+	GPIO_11,
+	GPIO_12,
+	GPIO_A,
+	GPIO_B,
+	GPIO_J3_15,
+	GPIO_J3_16,
+	GPIO_J3_17,
+	GPIO_J3_18,
+	GPIO_J3_19,
+	GPIO_J3_20,
+	GPIO_J3_21,
+	GPIO_J3_22,
+	GPIO_J3_23,
+	GPIO_J3_24,
+	GPIO_J3_25,
+	GPIO_J3_26,
+	GPIO_J3_27,
+	GPIO_J3_28,
+	GPIO_J3_31,
+	GPIO_J3_32,
+	GPIO_J3_33,
+	GPIO_J3_34,
+	GPIO_J3_35,
+	GPIO_J3_36,
+	GPIO_J3_37,
+	GPIO_J3_38,
+	GPIO_J3_39,
+	GPIO_J3_40,
+	GPIO_J4_11,
+	GPIO_J4_12,
+	GPIO_J4_13,
+	GPIO_J4_14,
+	GPIO_J4_15,
+	GPIO_J4_16,
+	GPIO_J4_19,
+	GPIO_J4_20,
+	GPIO_J4_21,
+	GPIO_J4_22,
+	GPIO_J4_23,
+	GPIO_J4_24,
+	GPIO_J4_27,
+	GPIO_J4_28,
+	GPIO_J4_29,
+	GPIO_J4_30,
+	GPIO_J4_31,
+	GPIO_J4_32,
+	GPIO_J4_35,
+	GPIO_J4_36,
+	GPIO_J4_37,
+	GPIO_J4_38,
+	GPIO_J4_39,
+	GPIO_J4_40,
+	I2C_SCL,
+	I2C_SDA,
+	PB,
+	PMOD_A,
+	PMOD_B,
+	PMOD_C,
+	PMOD_D,
+	SDRAM_DQ,
+	SFLASH_ASDI,
+	SFLASH_CSn,
+	SFLASH_DATA,
+	SFLASH_DCLK,
+	SYS_CLK,
+	USER_CLK,
+	sampler_tx
+);
+input  ADT7420_CT;
+input  ADT7420_INT;
+input  ADT7420_SCL;
+input  ADT7420_SDA;
+input  ADXL362_INT1;
+input  ADXL362_INT2;
+input  ADXL362_MISO;
+input [7:0] AIN;
+input  EG_P1;
+input  EG_P2;
+input  EG_P3;
+input  EG_P4;
+input  EG_P5;
+input  EG_P6;
+input  EG_P7;
+input  EG_P8;
+input  EG_P9;
+input  EG_P10;
+input  EG_P11;
+input  EG_P12;
+input  EG_P13;
+input  EG_P14;
+input  EG_P15;
+input  EG_P16;
+input  EG_P17;
+input  EG_P18;
+input  EG_P19;
+input  EG_P20;
+input  EG_P21;
+input  EG_P22;
+input  EG_P23;
+input  EG_P24;
+input  EG_P25;
+input  EG_P26;
+input  EG_P27;
+input  EG_P28;
+input  EG_P29;
+input  EG_P35;
+input  EG_P36;
+input  EG_P37;
+input  EG_P38;
+input  EG_P39;
+input  EG_P40;
+input  EG_P41;
+input  EG_P42;
+input  EG_P43;
+input  EG_P44;
+input  EG_P45;
+input  EG_P46;
+input  EG_P47;
+input  EG_P48;
+input  EG_P49;
+input  EG_P50;
+input  EG_P51;
+input  EG_P52;
+input  EG_P53;
+input  EG_P54;
+input  EG_P55;
+input  EG_P56;
+input  EG_P57;
+input  EG_P58;
+input  EG_P59;
+input  EG_P60;
+input  EXP_PRESENT;
+input  GPIO_01;
+input  GPIO_02;
+input  GPIO_03;
+input  GPIO_04;
+input  GPIO_05;
+input  GPIO_06;
+input  GPIO_07;
+input  GPIO_08;
+input  GPIO_09;
+input  GPIO_10;
+input  GPIO_11;
+input  GPIO_12;
+input  GPIO_A;
+input  GPIO_B;
+input  GPIO_J3_15;
+input  GPIO_J3_16;
+input  GPIO_J3_17;
+input  GPIO_J3_18;
+input  GPIO_J3_19;
+input  GPIO_J3_20;
+input  GPIO_J3_21;
+input  GPIO_J3_22;
+input  GPIO_J3_23;
+input  GPIO_J3_24;
+input  GPIO_J3_25;
+input  GPIO_J3_26;
+input  GPIO_J3_27;
+input  GPIO_J3_28;
+input  GPIO_J3_31;
+input  GPIO_J3_32;
+input  GPIO_J3_33;
+input  GPIO_J3_34;
+input  GPIO_J3_35;
+input  GPIO_J3_36;
+input  GPIO_J3_37;
+input  GPIO_J3_38;
+input  GPIO_J3_39;
+input  GPIO_J3_40;
+input  GPIO_J4_11;
+input  GPIO_J4_12;
+input  GPIO_J4_13;
+input  GPIO_J4_14;
+input  GPIO_J4_15;
+input  GPIO_J4_16;
+input  GPIO_J4_19;
+input  GPIO_J4_20;
+input  GPIO_J4_21;
+input  GPIO_J4_22;
+input  GPIO_J4_23;
+input  GPIO_J4_24;
+input  GPIO_J4_27;
+input  GPIO_J4_28;
+input  GPIO_J4_29;
+input  GPIO_J4_30;
+input  GPIO_J4_31;
+input  GPIO_J4_32;
+input  GPIO_J4_35;
+input  GPIO_J4_36;
+input  GPIO_J4_37;
+input  GPIO_J4_38;
+input  GPIO_J4_39;
+input  GPIO_J4_40;
+input  I2C_SCL;
+input  I2C_SDA;
+input [4:1] PB;
+input [3:0] PMOD_A;
+input [3:0] PMOD_B;
+input [3:0] PMOD_C;
+input [3:0] PMOD_D;
+input [15:0] SDRAM_DQ;
+input  SFLASH_ASDI;
+input  SFLASH_CSn;
+input  SFLASH_DATA;
+input  SFLASH_DCLK;
+input  SYS_CLK;
+input  USER_CLK;
+output sampler_tx;
+
+reg sample;
+time current_time;
+always @(ADT7420_CT or ADT7420_INT or ADT7420_SCL or ADT7420_SDA or ADXL362_INT1 or ADXL362_INT2 or ADXL362_MISO or AIN or EG_P1 or EG_P2 or EG_P3 or EG_P4 or EG_P5 or EG_P6 or EG_P7 or EG_P8 or EG_P9 or EG_P10 or EG_P11 or EG_P12 or EG_P13 or EG_P14 or EG_P15 or EG_P16 or EG_P17 or EG_P18 or EG_P19 or EG_P20 or EG_P21 or EG_P22 or EG_P23 or EG_P24 or EG_P25 or EG_P26 or EG_P27 or EG_P28 or EG_P29 or EG_P35 or EG_P36 or EG_P37 or EG_P38 or EG_P39 or EG_P40 or EG_P41 or EG_P42 or EG_P43 or EG_P44 or EG_P45 or EG_P46 or EG_P47 or EG_P48 or EG_P49 or EG_P50 or EG_P51 or EG_P52 or EG_P53 or EG_P54 or EG_P55 or EG_P56 or EG_P57 or EG_P58 or EG_P59 or EG_P60 or EXP_PRESENT or GPIO_01 or GPIO_02 or GPIO_03 or GPIO_04 or GPIO_05 or GPIO_06 or GPIO_07 or GPIO_08 or GPIO_09 or GPIO_10 or GPIO_11 or GPIO_12 or GPIO_A or GPIO_B or GPIO_J3_15 or GPIO_J3_16 or GPIO_J3_17 or GPIO_J3_18 or GPIO_J3_19 or GPIO_J3_20 or GPIO_J3_21 or GPIO_J3_22 or GPIO_J3_23 or GPIO_J3_24 or GPIO_J3_25 or GPIO_J3_26 or GPIO_J3_27 or GPIO_J3_28 or GPIO_J3_31 or GPIO_J3_32 or GPIO_J3_33 or GPIO_J3_34 or GPIO_J3_35 or GPIO_J3_36 or GPIO_J3_37 or GPIO_J3_38 or GPIO_J3_39 or GPIO_J3_40 or GPIO_J4_11 or GPIO_J4_12 or GPIO_J4_13 or GPIO_J4_14 or GPIO_J4_15 or GPIO_J4_16 or GPIO_J4_19 or GPIO_J4_20 or GPIO_J4_21 or GPIO_J4_22 or GPIO_J4_23 or GPIO_J4_24 or GPIO_J4_27 or GPIO_J4_28 or GPIO_J4_29 or GPIO_J4_30 or GPIO_J4_31 or GPIO_J4_32 or GPIO_J4_35 or GPIO_J4_36 or GPIO_J4_37 or GPIO_J4_38 or GPIO_J4_39 or GPIO_J4_40 or I2C_SCL or I2C_SDA or PB or PMOD_A or PMOD_B or PMOD_C or PMOD_D or SDRAM_DQ or SFLASH_ASDI or SFLASH_CSn or SFLASH_DATA or SFLASH_DCLK or SYS_CLK or USER_CLK)
+                                                                                
+begin                                                 
+ if ($realtime > 0)                                   
+ begin                                                
+    if ($realtime == 0 || $realtime != current_time)  
+    begin                                             
+        if (sample === 1'bx)                          
+            sample = 0;                               
+        else                                          
+            sample = ~sample;                         
+    end                                               
+    current_time = $realtime;                         
+ end                                                  
+end                                                   
+
+assign sampler_tx = sample;
+endmodule
+
+module BeMicro_MAX10_top_vlg_check_tst (
+	AD5681R_LDACn,
+	AD5681R_RSTn,
+	AD5681R_SCL,
+	AD5681R_SDA,
+	AD5681R_SYNCn,
+	ADT7420_SCL,
+	ADT7420_SDA,
+	ADXL362_CS,
+	ADXL362_MOSI,
+	ADXL362_SCLK,
+	EG_P1,
+	EG_P2,
+	EG_P3,
+	EG_P4,
+	EG_P5,
+	EG_P6,
+	EG_P7,
+	EG_P8,
+	EG_P9,
+	EG_P10,
+	EG_P11,
+	EG_P12,
+	EG_P13,
+	EG_P14,
+	EG_P15,
+	EG_P16,
+	EG_P17,
+	EG_P18,
+	EG_P19,
+	EG_P20,
+	EG_P21,
+	EG_P22,
+	EG_P23,
+	EG_P24,
+	EG_P25,
+	EG_P26,
+	EG_P27,
+	EG_P28,
+	EG_P29,
+	EG_P35,
+	EG_P36,
+	EG_P37,
+	EG_P38,
+	EG_P39,
+	EG_P40,
+	EG_P41,
+	EG_P42,
+	EG_P43,
+	EG_P44,
+	EG_P45,
+	EG_P46,
+	EG_P47,
+	EG_P48,
+	EG_P49,
+	EG_P50,
+	EG_P51,
+	EG_P52,
+	EG_P53,
+	EG_P54,
+	EG_P55,
+	EG_P56,
+	EG_P57,
+	EG_P58,
+	EG_P59,
+	EG_P60,
+	GPIO_01,
+	GPIO_02,
+	GPIO_03,
+	GPIO_04,
+	GPIO_05,
+	GPIO_06,
+	GPIO_07,
+	GPIO_08,
+	GPIO_09,
+	GPIO_10,
+	GPIO_11,
+	GPIO_12,
+	GPIO_A,
+	GPIO_B,
+	GPIO_J3_15,
+	GPIO_J3_16,
+	GPIO_J3_17,
+	GPIO_J3_18,
+	GPIO_J3_19,
+	GPIO_J3_20,
+	GPIO_J3_21,
+	GPIO_J3_22,
+	GPIO_J3_23,
+	GPIO_J3_24,
+	GPIO_J3_25,
+	GPIO_J3_26,
+	GPIO_J3_27,
+	GPIO_J3_28,
+	GPIO_J3_31,
+	GPIO_J3_32,
+	GPIO_J3_33,
+	GPIO_J3_34,
+	GPIO_J3_35,
+	GPIO_J3_36,
+	GPIO_J3_37,
+	GPIO_J3_38,
+	GPIO_J3_39,
+	GPIO_J3_40,
+	GPIO_J4_11,
+	GPIO_J4_12,
+	GPIO_J4_13,
+	GPIO_J4_14,
+	GPIO_J4_15,
+	GPIO_J4_16,
+	GPIO_J4_19,
+	GPIO_J4_20,
+	GPIO_J4_21,
+	GPIO_J4_22,
+	GPIO_J4_23,
+	GPIO_J4_24,
+	GPIO_J4_27,
+	GPIO_J4_28,
+	GPIO_J4_29,
+	GPIO_J4_30,
+	GPIO_J4_31,
+	GPIO_J4_32,
+	GPIO_J4_35,
+	GPIO_J4_36,
+	GPIO_J4_37,
+	GPIO_J4_38,
+	GPIO_J4_39,
+	GPIO_J4_40,
+	I2C_SCL,
+	I2C_SDA,
+	PMOD_A,
+	PMOD_B,
+	PMOD_C,
+	PMOD_D,
+	RESET_EXPn,
+	SDRAM_A,
+	SDRAM_BA,
+	SDRAM_CASn,
+	SDRAM_CKE,
+	SDRAM_CLK,
+	SDRAM_CSn,
+	SDRAM_DQ,
+	SDRAM_DQMH,
+	SDRAM_DQML,
+	SDRAM_RASn,
+	SDRAM_WEn,
+	SFLASH_DATA,
+	SFLASH_DCLK,
+	USER_LED,
+	sampler_rx
+);
+input  AD5681R_LDACn;
+input  AD5681R_RSTn;
+input  AD5681R_SCL;
+input  AD5681R_SDA;
+input  AD5681R_SYNCn;
+input  ADT7420_SCL;
+input  ADT7420_SDA;
+input  ADXL362_CS;
+input  ADXL362_MOSI;
+input  ADXL362_SCLK;
+input  EG_P1;
+input  EG_P2;
+input  EG_P3;
+input  EG_P4;
+input  EG_P5;
+input  EG_P6;
+input  EG_P7;
+input  EG_P8;
+input  EG_P9;
+input  EG_P10;
+input  EG_P11;
+input  EG_P12;
+input  EG_P13;
+input  EG_P14;
+input  EG_P15;
+input  EG_P16;
+input  EG_P17;
+input  EG_P18;
+input  EG_P19;
+input  EG_P20;
+input  EG_P21;
+input  EG_P22;
+input  EG_P23;
+input  EG_P24;
+input  EG_P25;
+input  EG_P26;
+input  EG_P27;
+input  EG_P28;
+input  EG_P29;
+input  EG_P35;
+input  EG_P36;
+input  EG_P37;
+input  EG_P38;
+input  EG_P39;
+input  EG_P40;
+input  EG_P41;
+input  EG_P42;
+input  EG_P43;
+input  EG_P44;
+input  EG_P45;
+input  EG_P46;
+input  EG_P47;
+input  EG_P48;
+input  EG_P49;
+input  EG_P50;
+input  EG_P51;
+input  EG_P52;
+input  EG_P53;
+input  EG_P54;
+input  EG_P55;
+input  EG_P56;
+input  EG_P57;
+input  EG_P58;
+input  EG_P59;
+input  EG_P60;
+input  GPIO_01;
+input  GPIO_02;
+input  GPIO_03;
+input  GPIO_04;
+input  GPIO_05;
+input  GPIO_06;
+input  GPIO_07;
+input  GPIO_08;
+input  GPIO_09;
+input  GPIO_10;
+input  GPIO_11;
+input  GPIO_12;
+input  GPIO_A;
+input  GPIO_B;
+input  GPIO_J3_15;
+input  GPIO_J3_16;
+input  GPIO_J3_17;
+input  GPIO_J3_18;
+input  GPIO_J3_19;
+input  GPIO_J3_20;
+input  GPIO_J3_21;
+input  GPIO_J3_22;
+input  GPIO_J3_23;
+input  GPIO_J3_24;
+input  GPIO_J3_25;
+input  GPIO_J3_26;
+input  GPIO_J3_27;
+input  GPIO_J3_28;
+input  GPIO_J3_31;
+input  GPIO_J3_32;
+input  GPIO_J3_33;
+input  GPIO_J3_34;
+input  GPIO_J3_35;
+input  GPIO_J3_36;
+input  GPIO_J3_37;
+input  GPIO_J3_38;
+input  GPIO_J3_39;
+input  GPIO_J3_40;
+input  GPIO_J4_11;
+input  GPIO_J4_12;
+input  GPIO_J4_13;
+input  GPIO_J4_14;
+input  GPIO_J4_15;
+input  GPIO_J4_16;
+input  GPIO_J4_19;
+input  GPIO_J4_20;
+input  GPIO_J4_21;
+input  GPIO_J4_22;
+input  GPIO_J4_23;
+input  GPIO_J4_24;
+input  GPIO_J4_27;
+input  GPIO_J4_28;
+input  GPIO_J4_29;
+input  GPIO_J4_30;
+input  GPIO_J4_31;
+input  GPIO_J4_32;
+input  GPIO_J4_35;
+input  GPIO_J4_36;
+input  GPIO_J4_37;
+input  GPIO_J4_38;
+input  GPIO_J4_39;
+input  GPIO_J4_40;
+input  I2C_SCL;
+input  I2C_SDA;
+input [3:0] PMOD_A;
+input [3:0] PMOD_B;
+input [3:0] PMOD_C;
+input [3:0] PMOD_D;
+input  RESET_EXPn;
+input [12:0] SDRAM_A;
+input [1:0] SDRAM_BA;
+input  SDRAM_CASn;
+input  SDRAM_CKE;
+input  SDRAM_CLK;
+input  SDRAM_CSn;
+input [15:0] SDRAM_DQ;
+input  SDRAM_DQMH;
+input  SDRAM_DQML;
+input  SDRAM_RASn;
+input  SDRAM_WEn;
+input  SFLASH_DATA;
+input  SFLASH_DCLK;
+input [8:1] USER_LED;
+input sampler_rx;
+
+reg  AD5681R_LDACn_expected;
+reg  AD5681R_RSTn_expected;
+reg  AD5681R_SCL_expected;
+reg  AD5681R_SDA_expected;
+reg  AD5681R_SYNCn_expected;
+reg  ADT7420_SCL_expected;
+reg  ADT7420_SDA_expected;
+reg  ADXL362_CS_expected;
+reg  ADXL362_MOSI_expected;
+reg  ADXL362_SCLK_expected;
+reg  EG_P1_expected;
+reg  EG_P2_expected;
+reg  EG_P3_expected;
+reg  EG_P4_expected;
+reg  EG_P5_expected;
+reg  EG_P6_expected;
+reg  EG_P7_expected;
+reg  EG_P8_expected;
+reg  EG_P9_expected;
+reg  EG_P10_expected;
+reg  EG_P11_expected;
+reg  EG_P12_expected;
+reg  EG_P13_expected;
+reg  EG_P14_expected;
+reg  EG_P15_expected;
+reg  EG_P16_expected;
+reg  EG_P17_expected;
+reg  EG_P18_expected;
+reg  EG_P19_expected;
+reg  EG_P20_expected;
+reg  EG_P21_expected;
+reg  EG_P22_expected;
+reg  EG_P23_expected;
+reg  EG_P24_expected;
+reg  EG_P25_expected;
+reg  EG_P26_expected;
+reg  EG_P27_expected;
+reg  EG_P28_expected;
+reg  EG_P29_expected;
+reg  EG_P35_expected;
+reg  EG_P36_expected;
+reg  EG_P37_expected;
+reg  EG_P38_expected;
+reg  EG_P39_expected;
+reg  EG_P40_expected;
+reg  EG_P41_expected;
+reg  EG_P42_expected;
+reg  EG_P43_expected;
+reg  EG_P44_expected;
+reg  EG_P45_expected;
+reg  EG_P46_expected;
+reg  EG_P47_expected;
+reg  EG_P48_expected;
+reg  EG_P49_expected;
+reg  EG_P50_expected;
+reg  EG_P51_expected;
+reg  EG_P52_expected;
+reg  EG_P53_expected;
+reg  EG_P54_expected;
+reg  EG_P55_expected;
+reg  EG_P56_expected;
+reg  EG_P57_expected;
+reg  EG_P58_expected;
+reg  EG_P59_expected;
+reg  EG_P60_expected;
+reg  GPIO_01_expected;
+reg  GPIO_02_expected;
+reg  GPIO_03_expected;
+reg  GPIO_04_expected;
+reg  GPIO_05_expected;
+reg  GPIO_06_expected;
+reg  GPIO_07_expected;
+reg  GPIO_08_expected;
+reg  GPIO_09_expected;
+reg  GPIO_10_expected;
+reg  GPIO_11_expected;
+reg  GPIO_12_expected;
+reg  GPIO_A_expected;
+reg  GPIO_B_expected;
+reg  GPIO_J3_15_expected;
+reg  GPIO_J3_16_expected;
+reg  GPIO_J3_17_expected;
+reg  GPIO_J3_18_expected;
+reg  GPIO_J3_19_expected;
+reg  GPIO_J3_20_expected;
+reg  GPIO_J3_21_expected;
+reg  GPIO_J3_22_expected;
+reg  GPIO_J3_23_expected;
+reg  GPIO_J3_24_expected;
+reg  GPIO_J3_25_expected;
+reg  GPIO_J3_26_expected;
+reg  GPIO_J3_27_expected;
+reg  GPIO_J3_28_expected;
+reg  GPIO_J3_31_expected;
+reg  GPIO_J3_32_expected;
+reg  GPIO_J3_33_expected;
+reg  GPIO_J3_34_expected;
+reg  GPIO_J3_35_expected;
+reg  GPIO_J3_36_expected;
+reg  GPIO_J3_37_expected;
+reg  GPIO_J3_38_expected;
+reg  GPIO_J3_39_expected;
+reg  GPIO_J3_40_expected;
+reg  GPIO_J4_11_expected;
+reg  GPIO_J4_12_expected;
+reg  GPIO_J4_13_expected;
+reg  GPIO_J4_14_expected;
+reg  GPIO_J4_15_expected;
+reg  GPIO_J4_16_expected;
+reg  GPIO_J4_19_expected;
+reg  GPIO_J4_20_expected;
+reg  GPIO_J4_21_expected;
+reg  GPIO_J4_22_expected;
+reg  GPIO_J4_23_expected;
+reg  GPIO_J4_24_expected;
+reg  GPIO_J4_27_expected;
+reg  GPIO_J4_28_expected;
+reg  GPIO_J4_29_expected;
+reg  GPIO_J4_30_expected;
+reg  GPIO_J4_31_expected;
+reg  GPIO_J4_32_expected;
+reg  GPIO_J4_35_expected;
+reg  GPIO_J4_36_expected;
+reg  GPIO_J4_37_expected;
+reg  GPIO_J4_38_expected;
+reg  GPIO_J4_39_expected;
+reg  GPIO_J4_40_expected;
+reg  I2C_SCL_expected;
+reg  I2C_SDA_expected;
+reg [3:0] PMOD_A_expected;
+reg [3:0] PMOD_B_expected;
+reg [3:0] PMOD_C_expected;
+reg [3:0] PMOD_D_expected;
+reg  RESET_EXPn_expected;
+reg [12:0] SDRAM_A_expected;
+reg [1:0] SDRAM_BA_expected;
+reg  SDRAM_CASn_expected;
+reg  SDRAM_CKE_expected;
+reg  SDRAM_CLK_expected;
+reg  SDRAM_CSn_expected;
+reg [15:0] SDRAM_DQ_expected;
+reg  SDRAM_DQMH_expected;
+reg  SDRAM_DQML_expected;
+reg  SDRAM_RASn_expected;
+reg  SDRAM_WEn_expected;
+reg  SFLASH_DATA_expected;
+reg  SFLASH_DCLK_expected;
+reg [8:1] USER_LED_expected;
+
+reg  AD5681R_LDACn_prev;
+reg  AD5681R_RSTn_prev;
+reg  AD5681R_SCL_prev;
+reg  AD5681R_SDA_prev;
+reg  AD5681R_SYNCn_prev;
+reg  ADT7420_SCL_prev;
+reg  ADT7420_SDA_prev;
+reg  ADXL362_CS_prev;
+reg  ADXL362_MOSI_prev;
+reg  ADXL362_SCLK_prev;
+reg  EG_P1_prev;
+reg  EG_P2_prev;
+reg  EG_P3_prev;
+reg  EG_P4_prev;
+reg  EG_P5_prev;
+reg  EG_P6_prev;
+reg  EG_P7_prev;
+reg  EG_P8_prev;
+reg  EG_P9_prev;
+reg  EG_P10_prev;
+reg  EG_P11_prev;
+reg  EG_P12_prev;
+reg  EG_P13_prev;
+reg  EG_P14_prev;
+reg  EG_P15_prev;
+reg  EG_P16_prev;
+reg  EG_P17_prev;
+reg  EG_P18_prev;
+reg  EG_P19_prev;
+reg  EG_P20_prev;
+reg  EG_P21_prev;
+reg  EG_P22_prev;
+reg  EG_P23_prev;
+reg  EG_P24_prev;
+reg  EG_P25_prev;
+reg  EG_P26_prev;
+reg  EG_P27_prev;
+reg  EG_P28_prev;
+reg  EG_P29_prev;
+reg  EG_P35_prev;
+reg  EG_P36_prev;
+reg  EG_P37_prev;
+reg  EG_P38_prev;
+reg  EG_P39_prev;
+reg  EG_P40_prev;
+reg  EG_P41_prev;
+reg  EG_P42_prev;
+reg  EG_P43_prev;
+reg  EG_P44_prev;
+reg  EG_P45_prev;
+reg  EG_P46_prev;
+reg  EG_P47_prev;
+reg  EG_P48_prev;
+reg  EG_P49_prev;
+reg  EG_P50_prev;
+reg  EG_P51_prev;
+reg  EG_P52_prev;
+reg  EG_P53_prev;
+reg  EG_P54_prev;
+reg  EG_P55_prev;
+reg  EG_P56_prev;
+reg  EG_P57_prev;
+reg  EG_P58_prev;
+reg  EG_P59_prev;
+reg  EG_P60_prev;
+reg  GPIO_01_prev;
+reg  GPIO_02_prev;
+reg  GPIO_03_prev;
+reg  GPIO_04_prev;
+reg  GPIO_05_prev;
+reg  GPIO_06_prev;
+reg  GPIO_07_prev;
+reg  GPIO_08_prev;
+reg  GPIO_09_prev;
+reg  GPIO_10_prev;
+reg  GPIO_11_prev;
+reg  GPIO_12_prev;
+reg  GPIO_A_prev;
+reg  GPIO_B_prev;
+reg  GPIO_J3_15_prev;
+reg  GPIO_J3_16_prev;
+reg  GPIO_J3_17_prev;
+reg  GPIO_J3_18_prev;
+reg  GPIO_J3_19_prev;
+reg  GPIO_J3_20_prev;
+reg  GPIO_J3_21_prev;
+reg  GPIO_J3_22_prev;
+reg  GPIO_J3_23_prev;
+reg  GPIO_J3_24_prev;
+reg  GPIO_J3_25_prev;
+reg  GPIO_J3_26_prev;
+reg  GPIO_J3_27_prev;
+reg  GPIO_J3_28_prev;
+reg  GPIO_J3_31_prev;
+reg  GPIO_J3_32_prev;
+reg  GPIO_J3_33_prev;
+reg  GPIO_J3_34_prev;
+reg  GPIO_J3_35_prev;
+reg  GPIO_J3_36_prev;
+reg  GPIO_J3_37_prev;
+reg  GPIO_J3_38_prev;
+reg  GPIO_J3_39_prev;
+reg  GPIO_J3_40_prev;
+reg  GPIO_J4_11_prev;
+reg  GPIO_J4_12_prev;
+reg  GPIO_J4_13_prev;
+reg  GPIO_J4_14_prev;
+reg  GPIO_J4_15_prev;
+reg  GPIO_J4_16_prev;
+reg  GPIO_J4_19_prev;
+reg  GPIO_J4_20_prev;
+reg  GPIO_J4_21_prev;
+reg  GPIO_J4_22_prev;
+reg  GPIO_J4_23_prev;
+reg  GPIO_J4_24_prev;
+reg  GPIO_J4_27_prev;
+reg  GPIO_J4_28_prev;
+reg  GPIO_J4_29_prev;
+reg  GPIO_J4_30_prev;
+reg  GPIO_J4_31_prev;
+reg  GPIO_J4_32_prev;
+reg  GPIO_J4_35_prev;
+reg  GPIO_J4_36_prev;
+reg  GPIO_J4_37_prev;
+reg  GPIO_J4_38_prev;
+reg  GPIO_J4_39_prev;
+reg  GPIO_J4_40_prev;
+reg  I2C_SCL_prev;
+reg  I2C_SDA_prev;
+reg [3:0] PMOD_A_prev;
+reg [3:0] PMOD_B_prev;
+reg [3:0] PMOD_C_prev;
+reg [3:0] PMOD_D_prev;
+reg  RESET_EXPn_prev;
+reg [12:0] SDRAM_A_prev;
+reg [1:0] SDRAM_BA_prev;
+reg  SDRAM_CASn_prev;
+reg  SDRAM_CKE_prev;
+reg  SDRAM_CLK_prev;
+reg  SDRAM_CSn_prev;
+reg [15:0] SDRAM_DQ_prev;
+reg  SDRAM_DQMH_prev;
+reg  SDRAM_DQML_prev;
+reg  SDRAM_RASn_prev;
+reg  SDRAM_WEn_prev;
+reg  SFLASH_DATA_prev;
+reg  SFLASH_DCLK_prev;
+reg [8:1] USER_LED_prev;
+
+reg  AD5681R_LDACn_expected_prev;
+reg  AD5681R_RSTn_expected_prev;
+reg  AD5681R_SCL_expected_prev;
+reg  AD5681R_SDA_expected_prev;
+reg  AD5681R_SYNCn_expected_prev;
+
+reg  last_AD5681R_LDACn_exp;
+reg  last_AD5681R_RSTn_exp;
+reg  last_AD5681R_SCL_exp;
+reg  last_AD5681R_SDA_exp;
+reg  last_AD5681R_SYNCn_exp;
+
+reg trigger;
+
+integer i;
+integer nummismatches;
+
+reg [1:148] on_first_change ;
+
+
+initial
+begin
+trigger = 0;
+i = 0;
+nummismatches = 0;
+on_first_change = 148'b1;
+end
+
+// update real /o prevs
+
+always @(trigger)
+begin
+	AD5681R_LDACn_prev = AD5681R_LDACn;
+	AD5681R_RSTn_prev = AD5681R_RSTn;
+	AD5681R_SCL_prev = AD5681R_SCL;
+	AD5681R_SDA_prev = AD5681R_SDA;
+	AD5681R_SYNCn_prev = AD5681R_SYNCn;
+	ADT7420_SCL_prev = ADT7420_SCL;
+	ADT7420_SDA_prev = ADT7420_SDA;
+	ADXL362_CS_prev = ADXL362_CS;
+	ADXL362_MOSI_prev = ADXL362_MOSI;
+	ADXL362_SCLK_prev = ADXL362_SCLK;
+	EG_P1_prev = EG_P1;
+	EG_P2_prev = EG_P2;
+	EG_P3_prev = EG_P3;
+	EG_P4_prev = EG_P4;
+	EG_P5_prev = EG_P5;
+	EG_P6_prev = EG_P6;
+	EG_P7_prev = EG_P7;
+	EG_P8_prev = EG_P8;
+	EG_P9_prev = EG_P9;
+	EG_P10_prev = EG_P10;
+	EG_P11_prev = EG_P11;
+	EG_P12_prev = EG_P12;
+	EG_P13_prev = EG_P13;
+	EG_P14_prev = EG_P14;
+	EG_P15_prev = EG_P15;
+	EG_P16_prev = EG_P16;
+	EG_P17_prev = EG_P17;
+	EG_P18_prev = EG_P18;
+	EG_P19_prev = EG_P19;
+	EG_P20_prev = EG_P20;
+	EG_P21_prev = EG_P21;
+	EG_P22_prev = EG_P22;
+	EG_P23_prev = EG_P23;
+	EG_P24_prev = EG_P24;
+	EG_P25_prev = EG_P25;
+	EG_P26_prev = EG_P26;
+	EG_P27_prev = EG_P27;
+	EG_P28_prev = EG_P28;
+	EG_P29_prev = EG_P29;
+	EG_P35_prev = EG_P35;
+	EG_P36_prev = EG_P36;
+	EG_P37_prev = EG_P37;
+	EG_P38_prev = EG_P38;
+	EG_P39_prev = EG_P39;
+	EG_P40_prev = EG_P40;
+	EG_P41_prev = EG_P41;
+	EG_P42_prev = EG_P42;
+	EG_P43_prev = EG_P43;
+	EG_P44_prev = EG_P44;
+	EG_P45_prev = EG_P45;
+	EG_P46_prev = EG_P46;
+	EG_P47_prev = EG_P47;
+	EG_P48_prev = EG_P48;
+	EG_P49_prev = EG_P49;
+	EG_P50_prev = EG_P50;
+	EG_P51_prev = EG_P51;
+	EG_P52_prev = EG_P52;
+	EG_P53_prev = EG_P53;
+	EG_P54_prev = EG_P54;
+	EG_P55_prev = EG_P55;
+	EG_P56_prev = EG_P56;
+	EG_P57_prev = EG_P57;
+	EG_P58_prev = EG_P58;
+	EG_P59_prev = EG_P59;
+	EG_P60_prev = EG_P60;
+	GPIO_01_prev = GPIO_01;
+	GPIO_02_prev = GPIO_02;
+	GPIO_03_prev = GPIO_03;
+	GPIO_04_prev = GPIO_04;
+	GPIO_05_prev = GPIO_05;
+	GPIO_06_prev = GPIO_06;
+	GPIO_07_prev = GPIO_07;
+	GPIO_08_prev = GPIO_08;
+	GPIO_09_prev = GPIO_09;
+	GPIO_10_prev = GPIO_10;
+	GPIO_11_prev = GPIO_11;
+	GPIO_12_prev = GPIO_12;
+	GPIO_A_prev = GPIO_A;
+	GPIO_B_prev = GPIO_B;
+	GPIO_J3_15_prev = GPIO_J3_15;
+	GPIO_J3_16_prev = GPIO_J3_16;
+	GPIO_J3_17_prev = GPIO_J3_17;
+	GPIO_J3_18_prev = GPIO_J3_18;
+	GPIO_J3_19_prev = GPIO_J3_19;
+	GPIO_J3_20_prev = GPIO_J3_20;
+	GPIO_J3_21_prev = GPIO_J3_21;
+	GPIO_J3_22_prev = GPIO_J3_22;
+	GPIO_J3_23_prev = GPIO_J3_23;
+	GPIO_J3_24_prev = GPIO_J3_24;
+	GPIO_J3_25_prev = GPIO_J3_25;
+	GPIO_J3_26_prev = GPIO_J3_26;
+	GPIO_J3_27_prev = GPIO_J3_27;
+	GPIO_J3_28_prev = GPIO_J3_28;
+	GPIO_J3_31_prev = GPIO_J3_31;
+	GPIO_J3_32_prev = GPIO_J3_32;
+	GPIO_J3_33_prev = GPIO_J3_33;
+	GPIO_J3_34_prev = GPIO_J3_34;
+	GPIO_J3_35_prev = GPIO_J3_35;
+	GPIO_J3_36_prev = GPIO_J3_36;
+	GPIO_J3_37_prev = GPIO_J3_37;
+	GPIO_J3_38_prev = GPIO_J3_38;
+	GPIO_J3_39_prev = GPIO_J3_39;
+	GPIO_J3_40_prev = GPIO_J3_40;
+	GPIO_J4_11_prev = GPIO_J4_11;
+	GPIO_J4_12_prev = GPIO_J4_12;
+	GPIO_J4_13_prev = GPIO_J4_13;
+	GPIO_J4_14_prev = GPIO_J4_14;
+	GPIO_J4_15_prev = GPIO_J4_15;
+	GPIO_J4_16_prev = GPIO_J4_16;
+	GPIO_J4_19_prev = GPIO_J4_19;
+	GPIO_J4_20_prev = GPIO_J4_20;
+	GPIO_J4_21_prev = GPIO_J4_21;
+	GPIO_J4_22_prev = GPIO_J4_22;
+	GPIO_J4_23_prev = GPIO_J4_23;
+	GPIO_J4_24_prev = GPIO_J4_24;
+	GPIO_J4_27_prev = GPIO_J4_27;
+	GPIO_J4_28_prev = GPIO_J4_28;
+	GPIO_J4_29_prev = GPIO_J4_29;
+	GPIO_J4_30_prev = GPIO_J4_30;
+	GPIO_J4_31_prev = GPIO_J4_31;
+	GPIO_J4_32_prev = GPIO_J4_32;
+	GPIO_J4_35_prev = GPIO_J4_35;
+	GPIO_J4_36_prev = GPIO_J4_36;
+	GPIO_J4_37_prev = GPIO_J4_37;
+	GPIO_J4_38_prev = GPIO_J4_38;
+	GPIO_J4_39_prev = GPIO_J4_39;
+	GPIO_J4_40_prev = GPIO_J4_40;
+	I2C_SCL_prev = I2C_SCL;
+	I2C_SDA_prev = I2C_SDA;
+	PMOD_A_prev = PMOD_A;
+	PMOD_B_prev = PMOD_B;
+	PMOD_C_prev = PMOD_C;
+	PMOD_D_prev = PMOD_D;
+	RESET_EXPn_prev = RESET_EXPn;
+	SDRAM_A_prev = SDRAM_A;
+	SDRAM_BA_prev = SDRAM_BA;
+	SDRAM_CASn_prev = SDRAM_CASn;
+	SDRAM_CKE_prev = SDRAM_CKE;
+	SDRAM_CLK_prev = SDRAM_CLK;
+	SDRAM_CSn_prev = SDRAM_CSn;
+	SDRAM_DQ_prev = SDRAM_DQ;
+	SDRAM_DQMH_prev = SDRAM_DQMH;
+	SDRAM_DQML_prev = SDRAM_DQML;
+	SDRAM_RASn_prev = SDRAM_RASn;
+	SDRAM_WEn_prev = SDRAM_WEn;
+	SFLASH_DATA_prev = SFLASH_DATA;
+	SFLASH_DCLK_prev = SFLASH_DCLK;
+	USER_LED_prev = USER_LED;
+end
+
+// update expected /o prevs
+
+always @(trigger)
+begin
+	AD5681R_LDACn_expected_prev = AD5681R_LDACn_expected;
+	AD5681R_RSTn_expected_prev = AD5681R_RSTn_expected;
+	AD5681R_SCL_expected_prev = AD5681R_SCL_expected;
+	AD5681R_SDA_expected_prev = AD5681R_SDA_expected;
+	AD5681R_SYNCn_expected_prev = AD5681R_SYNCn_expected;
+end
+
+
+
+// expected AD5681R_LDACn
+initial
+begin
+	AD5681R_LDACn_expected = 1'bX;
+end 
+
+// expected AD5681R_RSTn
+initial
+begin
+	AD5681R_RSTn_expected = 1'bX;
+end 
+
+// expected AD5681R_SCL
+initial
+begin
+	AD5681R_SCL_expected = 1'bX;
+end 
+
+// expected AD5681R_SDA
+initial
+begin
+	AD5681R_SDA_expected = 1'bX;
+end 
+
+// expected AD5681R_SYNCn
+initial
+begin
+	AD5681R_SYNCn_expected = 1'bX;
+end 
+// generate trigger
+always @(AD5681R_LDACn_expected or AD5681R_LDACn or AD5681R_RSTn_expected or AD5681R_RSTn or AD5681R_SCL_expected or AD5681R_SCL or AD5681R_SDA_expected or AD5681R_SDA or AD5681R_SYNCn_expected or AD5681R_SYNCn or ADT7420_SCL_expected or ADT7420_SCL or ADT7420_SDA_expected or ADT7420_SDA or ADXL362_CS_expected or ADXL362_CS or ADXL362_MOSI_expected or ADXL362_MOSI or ADXL362_SCLK_expected or ADXL362_SCLK or EG_P1_expected or EG_P1 or EG_P2_expected or EG_P2 or EG_P3_expected or EG_P3 or EG_P4_expected or EG_P4 or EG_P5_expected or EG_P5 or EG_P6_expected or EG_P6 or EG_P7_expected or EG_P7 or EG_P8_expected or EG_P8 or EG_P9_expected or EG_P9 or EG_P10_expected or EG_P10 or EG_P11_expected or EG_P11 or EG_P12_expected or EG_P12 or EG_P13_expected or EG_P13 or EG_P14_expected or EG_P14 or EG_P15_expected or EG_P15 or EG_P16_expected or EG_P16 or EG_P17_expected or EG_P17 or EG_P18_expected or EG_P18 or EG_P19_expected or EG_P19 or EG_P20_expected or EG_P20 or EG_P21_expected or EG_P21 or EG_P22_expected or EG_P22 or EG_P23_expected or EG_P23 or EG_P24_expected or EG_P24 or EG_P25_expected or EG_P25 or EG_P26_expected or EG_P26 or EG_P27_expected or EG_P27 or EG_P28_expected or EG_P28 or EG_P29_expected or EG_P29 or EG_P35_expected or EG_P35 or EG_P36_expected or EG_P36 or EG_P37_expected or EG_P37 or EG_P38_expected or EG_P38 or EG_P39_expected or EG_P39 or EG_P40_expected or EG_P40 or EG_P41_expected or EG_P41 or EG_P42_expected or EG_P42 or EG_P43_expected or EG_P43 or EG_P44_expected or EG_P44 or EG_P45_expected or EG_P45 or EG_P46_expected or EG_P46 or EG_P47_expected or EG_P47 or EG_P48_expected or EG_P48 or EG_P49_expected or EG_P49 or EG_P50_expected or EG_P50 or EG_P51_expected or EG_P51 or EG_P52_expected or EG_P52 or EG_P53_expected or EG_P53 or EG_P54_expected or EG_P54 or EG_P55_expected or EG_P55 or EG_P56_expected or EG_P56 or EG_P57_expected or EG_P57 or EG_P58_expected or EG_P58 or EG_P59_expected or EG_P59 or EG_P60_expected or EG_P60 or GPIO_01_expected or GPIO_01 or GPIO_02_expected or GPIO_02 or GPIO_03_expected or GPIO_03 or GPIO_04_expected or GPIO_04 or GPIO_05_expected or GPIO_05 or GPIO_06_expected or GPIO_06 or GPIO_07_expected or GPIO_07 or GPIO_08_expected or GPIO_08 or GPIO_09_expected or GPIO_09 or GPIO_10_expected or GPIO_10 or GPIO_11_expected or GPIO_11 or GPIO_12_expected or GPIO_12 or GPIO_A_expected or GPIO_A or GPIO_B_expected or GPIO_B or GPIO_J3_15_expected or GPIO_J3_15 or GPIO_J3_16_expected or GPIO_J3_16 or GPIO_J3_17_expected or GPIO_J3_17 or GPIO_J3_18_expected or GPIO_J3_18 or GPIO_J3_19_expected or GPIO_J3_19 or GPIO_J3_20_expected or GPIO_J3_20 or GPIO_J3_21_expected or GPIO_J3_21 or GPIO_J3_22_expected or GPIO_J3_22 or GPIO_J3_23_expected or GPIO_J3_23 or GPIO_J3_24_expected or GPIO_J3_24 or GPIO_J3_25_expected or GPIO_J3_25 or GPIO_J3_26_expected or GPIO_J3_26 or GPIO_J3_27_expected or GPIO_J3_27 or GPIO_J3_28_expected or GPIO_J3_28 or GPIO_J3_31_expected or GPIO_J3_31 or GPIO_J3_32_expected or GPIO_J3_32 or GPIO_J3_33_expected or GPIO_J3_33 or GPIO_J3_34_expected or GPIO_J3_34 or GPIO_J3_35_expected or GPIO_J3_35 or GPIO_J3_36_expected or GPIO_J3_36 or GPIO_J3_37_expected or GPIO_J3_37 or GPIO_J3_38_expected or GPIO_J3_38 or GPIO_J3_39_expected or GPIO_J3_39 or GPIO_J3_40_expected or GPIO_J3_40 or GPIO_J4_11_expected or GPIO_J4_11 or GPIO_J4_12_expected or GPIO_J4_12 or GPIO_J4_13_expected or GPIO_J4_13 or GPIO_J4_14_expected or GPIO_J4_14 or GPIO_J4_15_expected or GPIO_J4_15 or GPIO_J4_16_expected or GPIO_J4_16 or GPIO_J4_19_expected or GPIO_J4_19 or GPIO_J4_20_expected or GPIO_J4_20 or GPIO_J4_21_expected or GPIO_J4_21 or GPIO_J4_22_expected or GPIO_J4_22 or GPIO_J4_23_expected or GPIO_J4_23 or GPIO_J4_24_expected or GPIO_J4_24 or GPIO_J4_27_expected or GPIO_J4_27 or GPIO_J4_28_expected or GPIO_J4_28 or GPIO_J4_29_expected or GPIO_J4_29 or GPIO_J4_30_expected or GPIO_J4_30 or GPIO_J4_31_expected or GPIO_J4_31 or GPIO_J4_32_expected or GPIO_J4_32 or GPIO_J4_35_expected or GPIO_J4_35 or GPIO_J4_36_expected or GPIO_J4_36 or GPIO_J4_37_expected or GPIO_J4_37 or GPIO_J4_38_expected or GPIO_J4_38 or GPIO_J4_39_expected or GPIO_J4_39 or GPIO_J4_40_expected or GPIO_J4_40 or I2C_SCL_expected or I2C_SCL or I2C_SDA_expected or I2C_SDA or PMOD_A_expected or PMOD_A or PMOD_B_expected or PMOD_B or PMOD_C_expected or PMOD_C or PMOD_D_expected or PMOD_D or RESET_EXPn_expected or RESET_EXPn or SDRAM_A_expected or SDRAM_A or SDRAM_BA_expected or SDRAM_BA or SDRAM_CASn_expected or SDRAM_CASn or SDRAM_CKE_expected or SDRAM_CKE or SDRAM_CLK_expected or SDRAM_CLK or SDRAM_CSn_expected or SDRAM_CSn or SDRAM_DQ_expected or SDRAM_DQ or SDRAM_DQMH_expected or SDRAM_DQMH or SDRAM_DQML_expected or SDRAM_DQML or SDRAM_RASn_expected or SDRAM_RASn or SDRAM_WEn_expected or SDRAM_WEn or SFLASH_DATA_expected or SFLASH_DATA or SFLASH_DCLK_expected or SFLASH_DCLK or USER_LED_expected or USER_LED)
+begin
+	trigger <= ~trigger;
+end
+
+always @(posedge sampler_rx or negedge sampler_rx)
+begin
+`ifdef debug_tbench
+	$display("Scanning pattern %d @time = %t",i,$realtime );
+	i = i + 1;
+	$display("| expected AD5681R_LDACn = %b | expected AD5681R_RSTn = %b | expected AD5681R_SCL = %b | expected AD5681R_SDA = %b | expected AD5681R_SYNCn = %b | expected ADT7420_SCL = %b | expected ADT7420_SDA = %b | expected ADXL362_CS = %b | expected ADXL362_MOSI = %b | expected ADXL362_SCLK = %b | expected EG_P1 = %b | expected EG_P2 = %b | expected EG_P3 = %b | expected EG_P4 = %b | expected EG_P5 = %b | expected EG_P6 = %b | expected EG_P7 = %b | expected EG_P8 = %b | expected EG_P9 = %b | expected EG_P10 = %b | expected EG_P11 = %b | expected EG_P12 = %b | expected EG_P13 = %b | expected EG_P14 = %b | expected EG_P15 = %b | expected EG_P16 = %b | expected EG_P17 = %b | expected EG_P18 = %b | expected EG_P19 = %b | expected EG_P20 = %b | expected EG_P21 = %b | expected EG_P22 = %b | expected EG_P23 = %b | expected EG_P24 = %b | expected EG_P25 = %b | expected EG_P26 = %b | expected EG_P27 = %b | expected EG_P28 = %b | expected EG_P29 = %b | expected EG_P35 = %b | expected EG_P36 = %b | expected EG_P37 = %b | expected EG_P38 = %b | expected EG_P39 = %b | expected EG_P40 = %b | expected EG_P41 = %b | expected EG_P42 = %b | expected EG_P43 = %b | expected EG_P44 = %b | expected EG_P45 = %b | expected EG_P46 = %b | expected EG_P47 = %b | expected EG_P48 = %b | expected EG_P49 = %b | expected EG_P50 = %b | expected EG_P51 = %b | expected EG_P52 = %b | expected EG_P53 = %b | expected EG_P54 = %b | expected EG_P55 = %b | expected EG_P56 = %b | expected EG_P57 = %b | expected EG_P58 = %b | expected EG_P59 = %b | expected EG_P60 = %b | expected GPIO_01 = %b | expected GPIO_02 = %b | expected GPIO_03 = %b | expected GPIO_04 = %b | expected GPIO_05 = %b | expected GPIO_06 = %b | expected GPIO_07 = %b | expected GPIO_08 = %b | expected GPIO_09 = %b | expected GPIO_10 = %b | expected GPIO_11 = %b | expected GPIO_12 = %b | expected GPIO_A = %b | expected GPIO_B = %b | expected GPIO_J3_15 = %b | expected GPIO_J3_16 = %b | expected GPIO_J3_17 = %b | expected GPIO_J3_18 = %b | expected GPIO_J3_19 = %b | expected GPIO_J3_20 = %b | expected GPIO_J3_21 = %b | expected GPIO_J3_22 = %b | expected GPIO_J3_23 = %b | expected GPIO_J3_24 = %b | expected GPIO_J3_25 = %b | expected GPIO_J3_26 = %b | expected GPIO_J3_27 = %b | expected GPIO_J3_28 = %b | expected GPIO_J3_31 = %b | expected GPIO_J3_32 = %b | expected GPIO_J3_33 = %b | expected GPIO_J3_34 = %b | expected GPIO_J3_35 = %b | expected GPIO_J3_36 = %b | expected GPIO_J3_37 = %b | expected GPIO_J3_38 = %b | expected GPIO_J3_39 = %b | expected GPIO_J3_40 = %b | expected GPIO_J4_11 = %b | expected GPIO_J4_12 = %b | expected GPIO_J4_13 = %b | expected GPIO_J4_14 = %b | expected GPIO_J4_15 = %b | expected GPIO_J4_16 = %b | expected GPIO_J4_19 = %b | expected GPIO_J4_20 = %b | expected GPIO_J4_21 = %b | expected GPIO_J4_22 = %b | expected GPIO_J4_23 = %b | expected GPIO_J4_24 = %b | expected GPIO_J4_27 = %b | expected GPIO_J4_28 = %b | expected GPIO_J4_29 = %b | expected GPIO_J4_30 = %b | expected GPIO_J4_31 = %b | expected GPIO_J4_32 = %b | expected GPIO_J4_35 = %b | expected GPIO_J4_36 = %b | expected GPIO_J4_37 = %b | expected GPIO_J4_38 = %b | expected GPIO_J4_39 = %b | expected GPIO_J4_40 = %b | expected I2C_SCL = %b | expected I2C_SDA = %b | expected PMOD_A = %b | expected PMOD_B = %b | expected PMOD_C = %b | expected PMOD_D = %b | expected RESET_EXPn = %b | expected SDRAM_A = %b | expected SDRAM_BA = %b | expected SDRAM_CASn = %b | expected SDRAM_CKE = %b | expected SDRAM_CLK = %b | expected SDRAM_CSn = %b | expected SDRAM_DQ = %b | expected SDRAM_DQMH = %b | expected SDRAM_DQML = %b | expected SDRAM_RASn = %b | expected SDRAM_WEn = %b | expected SFLASH_DATA = %b | expected SFLASH_DCLK = %b | expected USER_LED = %b | ",AD5681R_LDACn_expected_prev,AD5681R_RSTn_expected_prev,AD5681R_SCL_expected_prev,AD5681R_SDA_expected_prev,AD5681R_SYNCn_expected_prev,ADT7420_SCL_expected_prev,ADT7420_SDA_expected_prev,ADXL362_CS_expected_prev,ADXL362_MOSI_expected_prev,ADXL362_SCLK_expected_prev,EG_P1_expected_prev,EG_P2_expected_prev,EG_P3_expected_prev,EG_P4_expected_prev,EG_P5_expected_prev,EG_P6_expected_prev,EG_P7_expected_prev,EG_P8_expected_prev,EG_P9_expected_prev,EG_P10_expected_prev,EG_P11_expected_prev,EG_P12_expected_prev,EG_P13_expected_prev,EG_P14_expected_prev,EG_P15_expected_prev,EG_P16_expected_prev,EG_P17_expected_prev,EG_P18_expected_prev,EG_P19_expected_prev,EG_P20_expected_prev,EG_P21_expected_prev,EG_P22_expected_prev,EG_P23_expected_prev,EG_P24_expected_prev,EG_P25_expected_prev,EG_P26_expected_prev,EG_P27_expected_prev,EG_P28_expected_prev,EG_P29_expected_prev,EG_P35_expected_prev,EG_P36_expected_prev,EG_P37_expected_prev,EG_P38_expected_prev,EG_P39_expected_prev,EG_P40_expected_prev,EG_P41_expected_prev,EG_P42_expected_prev,EG_P43_expected_prev,EG_P44_expected_prev,EG_P45_expected_prev,EG_P46_expected_prev,EG_P47_expected_prev,EG_P48_expected_prev,EG_P49_expected_prev,EG_P50_expected_prev,EG_P51_expected_prev,EG_P52_expected_prev,EG_P53_expected_prev,EG_P54_expected_prev,EG_P55_expected_prev,EG_P56_expected_prev,EG_P57_expected_prev,EG_P58_expected_prev,EG_P59_expected_prev,EG_P60_expected_prev,GPIO_01_expected_prev,GPIO_02_expected_prev,GPIO_03_expected_prev,GPIO_04_expected_prev,GPIO_05_expected_prev,GPIO_06_expected_prev,GPIO_07_expected_prev,GPIO_08_expected_prev,GPIO_09_expected_prev,GPIO_10_expected_prev,GPIO_11_expected_prev,GPIO_12_expected_prev,GPIO_A_expected_prev,GPIO_B_expected_prev,GPIO_J3_15_expected_prev,GPIO_J3_16_expected_prev,GPIO_J3_17_expected_prev,GPIO_J3_18_expected_prev,GPIO_J3_19_expected_prev,GPIO_J3_20_expected_prev,GPIO_J3_21_expected_prev,GPIO_J3_22_expected_prev,GPIO_J3_23_expected_prev,GPIO_J3_24_expected_prev,GPIO_J3_25_expected_prev,GPIO_J3_26_expected_prev,GPIO_J3_27_expected_prev,GPIO_J3_28_expected_prev,GPIO_J3_31_expected_prev,GPIO_J3_32_expected_prev,GPIO_J3_33_expected_prev,GPIO_J3_34_expected_prev,GPIO_J3_35_expected_prev,GPIO_J3_36_expected_prev,GPIO_J3_37_expected_prev,GPIO_J3_38_expected_prev,GPIO_J3_39_expected_prev,GPIO_J3_40_expected_prev,GPIO_J4_11_expected_prev,GPIO_J4_12_expected_prev,GPIO_J4_13_expected_prev,GPIO_J4_14_expected_prev,GPIO_J4_15_expected_prev,GPIO_J4_16_expected_prev,GPIO_J4_19_expected_prev,GPIO_J4_20_expected_prev,GPIO_J4_21_expected_prev,GPIO_J4_22_expected_prev,GPIO_J4_23_expected_prev,GPIO_J4_24_expected_prev,GPIO_J4_27_expected_prev,GPIO_J4_28_expected_prev,GPIO_J4_29_expected_prev,GPIO_J4_30_expected_prev,GPIO_J4_31_expected_prev,GPIO_J4_32_expected_prev,GPIO_J4_35_expected_prev,GPIO_J4_36_expected_prev,GPIO_J4_37_expected_prev,GPIO_J4_38_expected_prev,GPIO_J4_39_expected_prev,GPIO_J4_40_expected_prev,I2C_SCL_expected_prev,I2C_SDA_expected_prev,PMOD_A_expected_prev,PMOD_B_expected_prev,PMOD_C_expected_prev,PMOD_D_expected_prev,RESET_EXPn_expected_prev,SDRAM_A_expected_prev,SDRAM_BA_expected_prev,SDRAM_CASn_expected_prev,SDRAM_CKE_expected_prev,SDRAM_CLK_expected_prev,SDRAM_CSn_expected_prev,SDRAM_DQ_expected_prev,SDRAM_DQMH_expected_prev,SDRAM_DQML_expected_prev,SDRAM_RASn_expected_prev,SDRAM_WEn_expected_prev,SFLASH_DATA_expected_prev,SFLASH_DCLK_expected_prev,USER_LED_expected_prev);
+	$display("| real AD5681R_LDACn = %b | real AD5681R_RSTn = %b | real AD5681R_SCL = %b | real AD5681R_SDA = %b | real AD5681R_SYNCn = %b | real ADT7420_SCL = %b | real ADT7420_SDA = %b | real ADXL362_CS = %b | real ADXL362_MOSI = %b | real ADXL362_SCLK = %b | real EG_P1 = %b | real EG_P2 = %b | real EG_P3 = %b | real EG_P4 = %b | real EG_P5 = %b | real EG_P6 = %b | real EG_P7 = %b | real EG_P8 = %b | real EG_P9 = %b | real EG_P10 = %b | real EG_P11 = %b | real EG_P12 = %b | real EG_P13 = %b | real EG_P14 = %b | real EG_P15 = %b | real EG_P16 = %b | real EG_P17 = %b | real EG_P18 = %b | real EG_P19 = %b | real EG_P20 = %b | real EG_P21 = %b | real EG_P22 = %b | real EG_P23 = %b | real EG_P24 = %b | real EG_P25 = %b | real EG_P26 = %b | real EG_P27 = %b | real EG_P28 = %b | real EG_P29 = %b | real EG_P35 = %b | real EG_P36 = %b | real EG_P37 = %b | real EG_P38 = %b | real EG_P39 = %b | real EG_P40 = %b | real EG_P41 = %b | real EG_P42 = %b | real EG_P43 = %b | real EG_P44 = %b | real EG_P45 = %b | real EG_P46 = %b | real EG_P47 = %b | real EG_P48 = %b | real EG_P49 = %b | real EG_P50 = %b | real EG_P51 = %b | real EG_P52 = %b | real EG_P53 = %b | real EG_P54 = %b | real EG_P55 = %b | real EG_P56 = %b | real EG_P57 = %b | real EG_P58 = %b | real EG_P59 = %b | real EG_P60 = %b | real GPIO_01 = %b | real GPIO_02 = %b | real GPIO_03 = %b | real GPIO_04 = %b | real GPIO_05 = %b | real GPIO_06 = %b | real GPIO_07 = %b | real GPIO_08 = %b | real GPIO_09 = %b | real GPIO_10 = %b | real GPIO_11 = %b | real GPIO_12 = %b | real GPIO_A = %b | real GPIO_B = %b | real GPIO_J3_15 = %b | real GPIO_J3_16 = %b | real GPIO_J3_17 = %b | real GPIO_J3_18 = %b | real GPIO_J3_19 = %b | real GPIO_J3_20 = %b | real GPIO_J3_21 = %b | real GPIO_J3_22 = %b | real GPIO_J3_23 = %b | real GPIO_J3_24 = %b | real GPIO_J3_25 = %b | real GPIO_J3_26 = %b | real GPIO_J3_27 = %b | real GPIO_J3_28 = %b | real GPIO_J3_31 = %b | real GPIO_J3_32 = %b | real GPIO_J3_33 = %b | real GPIO_J3_34 = %b | real GPIO_J3_35 = %b | real GPIO_J3_36 = %b | real GPIO_J3_37 = %b | real GPIO_J3_38 = %b | real GPIO_J3_39 = %b | real GPIO_J3_40 = %b | real GPIO_J4_11 = %b | real GPIO_J4_12 = %b | real GPIO_J4_13 = %b | real GPIO_J4_14 = %b | real GPIO_J4_15 = %b | real GPIO_J4_16 = %b | real GPIO_J4_19 = %b | real GPIO_J4_20 = %b | real GPIO_J4_21 = %b | real GPIO_J4_22 = %b | real GPIO_J4_23 = %b | real GPIO_J4_24 = %b | real GPIO_J4_27 = %b | real GPIO_J4_28 = %b | real GPIO_J4_29 = %b | real GPIO_J4_30 = %b | real GPIO_J4_31 = %b | real GPIO_J4_32 = %b | real GPIO_J4_35 = %b | real GPIO_J4_36 = %b | real GPIO_J4_37 = %b | real GPIO_J4_38 = %b | real GPIO_J4_39 = %b | real GPIO_J4_40 = %b | real I2C_SCL = %b | real I2C_SDA = %b | real PMOD_A = %b | real PMOD_B = %b | real PMOD_C = %b | real PMOD_D = %b | real RESET_EXPn = %b | real SDRAM_A = %b | real SDRAM_BA = %b | real SDRAM_CASn = %b | real SDRAM_CKE = %b | real SDRAM_CLK = %b | real SDRAM_CSn = %b | real SDRAM_DQ = %b | real SDRAM_DQMH = %b | real SDRAM_DQML = %b | real SDRAM_RASn = %b | real SDRAM_WEn = %b | real SFLASH_DATA = %b | real SFLASH_DCLK = %b | real USER_LED = %b | ",AD5681R_LDACn_prev,AD5681R_RSTn_prev,AD5681R_SCL_prev,AD5681R_SDA_prev,AD5681R_SYNCn_prev,ADT7420_SCL_prev,ADT7420_SDA_prev,ADXL362_CS_prev,ADXL362_MOSI_prev,ADXL362_SCLK_prev,EG_P1_prev,EG_P2_prev,EG_P3_prev,EG_P4_prev,EG_P5_prev,EG_P6_prev,EG_P7_prev,EG_P8_prev,EG_P9_prev,EG_P10_prev,EG_P11_prev,EG_P12_prev,EG_P13_prev,EG_P14_prev,EG_P15_prev,EG_P16_prev,EG_P17_prev,EG_P18_prev,EG_P19_prev,EG_P20_prev,EG_P21_prev,EG_P22_prev,EG_P23_prev,EG_P24_prev,EG_P25_prev,EG_P26_prev,EG_P27_prev,EG_P28_prev,EG_P29_prev,EG_P35_prev,EG_P36_prev,EG_P37_prev,EG_P38_prev,EG_P39_prev,EG_P40_prev,EG_P41_prev,EG_P42_prev,EG_P43_prev,EG_P44_prev,EG_P45_prev,EG_P46_prev,EG_P47_prev,EG_P48_prev,EG_P49_prev,EG_P50_prev,EG_P51_prev,EG_P52_prev,EG_P53_prev,EG_P54_prev,EG_P55_prev,EG_P56_prev,EG_P57_prev,EG_P58_prev,EG_P59_prev,EG_P60_prev,GPIO_01_prev,GPIO_02_prev,GPIO_03_prev,GPIO_04_prev,GPIO_05_prev,GPIO_06_prev,GPIO_07_prev,GPIO_08_prev,GPIO_09_prev,GPIO_10_prev,GPIO_11_prev,GPIO_12_prev,GPIO_A_prev,GPIO_B_prev,GPIO_J3_15_prev,GPIO_J3_16_prev,GPIO_J3_17_prev,GPIO_J3_18_prev,GPIO_J3_19_prev,GPIO_J3_20_prev,GPIO_J3_21_prev,GPIO_J3_22_prev,GPIO_J3_23_prev,GPIO_J3_24_prev,GPIO_J3_25_prev,GPIO_J3_26_prev,GPIO_J3_27_prev,GPIO_J3_28_prev,GPIO_J3_31_prev,GPIO_J3_32_prev,GPIO_J3_33_prev,GPIO_J3_34_prev,GPIO_J3_35_prev,GPIO_J3_36_prev,GPIO_J3_37_prev,GPIO_J3_38_prev,GPIO_J3_39_prev,GPIO_J3_40_prev,GPIO_J4_11_prev,GPIO_J4_12_prev,GPIO_J4_13_prev,GPIO_J4_14_prev,GPIO_J4_15_prev,GPIO_J4_16_prev,GPIO_J4_19_prev,GPIO_J4_20_prev,GPIO_J4_21_prev,GPIO_J4_22_prev,GPIO_J4_23_prev,GPIO_J4_24_prev,GPIO_J4_27_prev,GPIO_J4_28_prev,GPIO_J4_29_prev,GPIO_J4_30_prev,GPIO_J4_31_prev,GPIO_J4_32_prev,GPIO_J4_35_prev,GPIO_J4_36_prev,GPIO_J4_37_prev,GPIO_J4_38_prev,GPIO_J4_39_prev,GPIO_J4_40_prev,I2C_SCL_prev,I2C_SDA_prev,PMOD_A_prev,PMOD_B_prev,PMOD_C_prev,PMOD_D_prev,RESET_EXPn_prev,SDRAM_A_prev,SDRAM_BA_prev,SDRAM_CASn_prev,SDRAM_CKE_prev,SDRAM_CLK_prev,SDRAM_CSn_prev,SDRAM_DQ_prev,SDRAM_DQMH_prev,SDRAM_DQML_prev,SDRAM_RASn_prev,SDRAM_WEn_prev,SFLASH_DATA_prev,SFLASH_DCLK_prev,USER_LED_prev);
+`endif
+	if (
+		( AD5681R_LDACn_expected_prev !== 1'bx ) && ( AD5681R_LDACn_prev !== AD5681R_LDACn_expected_prev )
+		&& ((AD5681R_LDACn_expected_prev !== last_AD5681R_LDACn_exp) ||
+			on_first_change[1])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port AD5681R_LDACn :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", AD5681R_LDACn_expected_prev);
+		$display ("     Real value = %b", AD5681R_LDACn_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[1] = 1'b0;
+		last_AD5681R_LDACn_exp = AD5681R_LDACn_expected_prev;
+	end
+	if (
+		( AD5681R_RSTn_expected_prev !== 1'bx ) && ( AD5681R_RSTn_prev !== AD5681R_RSTn_expected_prev )
+		&& ((AD5681R_RSTn_expected_prev !== last_AD5681R_RSTn_exp) ||
+			on_first_change[2])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port AD5681R_RSTn :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", AD5681R_RSTn_expected_prev);
+		$display ("     Real value = %b", AD5681R_RSTn_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[2] = 1'b0;
+		last_AD5681R_RSTn_exp = AD5681R_RSTn_expected_prev;
+	end
+	if (
+		( AD5681R_SCL_expected_prev !== 1'bx ) && ( AD5681R_SCL_prev !== AD5681R_SCL_expected_prev )
+		&& ((AD5681R_SCL_expected_prev !== last_AD5681R_SCL_exp) ||
+			on_first_change[3])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port AD5681R_SCL :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", AD5681R_SCL_expected_prev);
+		$display ("     Real value = %b", AD5681R_SCL_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[3] = 1'b0;
+		last_AD5681R_SCL_exp = AD5681R_SCL_expected_prev;
+	end
+	if (
+		( AD5681R_SDA_expected_prev !== 1'bx ) && ( AD5681R_SDA_prev !== AD5681R_SDA_expected_prev )
+		&& ((AD5681R_SDA_expected_prev !== last_AD5681R_SDA_exp) ||
+			on_first_change[4])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port AD5681R_SDA :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", AD5681R_SDA_expected_prev);
+		$display ("     Real value = %b", AD5681R_SDA_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[4] = 1'b0;
+		last_AD5681R_SDA_exp = AD5681R_SDA_expected_prev;
+	end
+	if (
+		( AD5681R_SYNCn_expected_prev !== 1'bx ) && ( AD5681R_SYNCn_prev !== AD5681R_SYNCn_expected_prev )
+		&& ((AD5681R_SYNCn_expected_prev !== last_AD5681R_SYNCn_exp) ||
+			on_first_change[5])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port AD5681R_SYNCn :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", AD5681R_SYNCn_expected_prev);
+		$display ("     Real value = %b", AD5681R_SYNCn_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[5] = 1'b0;
+		last_AD5681R_SYNCn_exp = AD5681R_SYNCn_expected_prev;
+	end
+
+	trigger <= ~trigger;
+end
+initial 
+
+begin 
+$timeformat(-12,3," ps",6);
+#1000000;
+if (nummismatches > 0)
+	$display ("%d mismatched vectors : Simulation failed !",nummismatches);
+else
+	$display ("Simulation passed !");
+$finish;
+end 
+endmodule
+
+module BeMicro_MAX10_top_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg ADT7420_CT;
+reg ADT7420_INT;
+reg treg_ADT7420_SCL;
+reg treg_ADT7420_SDA;
+reg ADXL362_INT1;
+reg ADXL362_INT2;
+reg ADXL362_MISO;
+reg [7:0] AIN;
+reg treg_EG_P1;
+reg treg_EG_P2;
+reg treg_EG_P3;
+reg treg_EG_P4;
+reg treg_EG_P5;
+reg treg_EG_P6;
+reg treg_EG_P7;
+reg treg_EG_P8;
+reg treg_EG_P9;
+reg treg_EG_P10;
+reg treg_EG_P11;
+reg treg_EG_P12;
+reg treg_EG_P13;
+reg treg_EG_P14;
+reg treg_EG_P15;
+reg treg_EG_P16;
+reg treg_EG_P17;
+reg treg_EG_P18;
+reg treg_EG_P19;
+reg treg_EG_P20;
+reg treg_EG_P21;
+reg treg_EG_P22;
+reg treg_EG_P23;
+reg treg_EG_P24;
+reg treg_EG_P25;
+reg treg_EG_P26;
+reg treg_EG_P27;
+reg treg_EG_P28;
+reg treg_EG_P29;
+reg treg_EG_P35;
+reg treg_EG_P36;
+reg treg_EG_P37;
+reg treg_EG_P38;
+reg treg_EG_P39;
+reg treg_EG_P40;
+reg treg_EG_P41;
+reg treg_EG_P42;
+reg treg_EG_P43;
+reg treg_EG_P44;
+reg treg_EG_P45;
+reg treg_EG_P46;
+reg treg_EG_P47;
+reg treg_EG_P48;
+reg treg_EG_P49;
+reg treg_EG_P50;
+reg treg_EG_P51;
+reg treg_EG_P52;
+reg treg_EG_P53;
+reg treg_EG_P54;
+reg treg_EG_P55;
+reg treg_EG_P56;
+reg treg_EG_P57;
+reg treg_EG_P58;
+reg treg_EG_P59;
+reg treg_EG_P60;
+reg EXP_PRESENT;
+reg treg_GPIO_01;
+reg treg_GPIO_02;
+reg treg_GPIO_03;
+reg treg_GPIO_04;
+reg treg_GPIO_05;
+reg treg_GPIO_06;
+reg treg_GPIO_07;
+reg treg_GPIO_08;
+reg treg_GPIO_09;
+reg treg_GPIO_10;
+reg treg_GPIO_11;
+reg treg_GPIO_12;
+reg treg_GPIO_A;
+reg treg_GPIO_B;
+reg treg_GPIO_J3_15;
+reg treg_GPIO_J3_16;
+reg treg_GPIO_J3_17;
+reg treg_GPIO_J3_18;
+reg treg_GPIO_J3_19;
+reg treg_GPIO_J3_20;
+reg treg_GPIO_J3_21;
+reg treg_GPIO_J3_22;
+reg treg_GPIO_J3_23;
+reg treg_GPIO_J3_24;
+reg treg_GPIO_J3_25;
+reg treg_GPIO_J3_26;
+reg treg_GPIO_J3_27;
+reg treg_GPIO_J3_28;
+reg treg_GPIO_J3_31;
+reg treg_GPIO_J3_32;
+reg treg_GPIO_J3_33;
+reg treg_GPIO_J3_34;
+reg treg_GPIO_J3_35;
+reg treg_GPIO_J3_36;
+reg treg_GPIO_J3_37;
+reg treg_GPIO_J3_38;
+reg treg_GPIO_J3_39;
+reg treg_GPIO_J3_40;
+reg treg_GPIO_J4_11;
+reg treg_GPIO_J4_12;
+reg treg_GPIO_J4_13;
+reg treg_GPIO_J4_14;
+reg treg_GPIO_J4_15;
+reg treg_GPIO_J4_16;
+reg treg_GPIO_J4_19;
+reg treg_GPIO_J4_20;
+reg treg_GPIO_J4_21;
+reg treg_GPIO_J4_22;
+reg treg_GPIO_J4_23;
+reg treg_GPIO_J4_24;
+reg treg_GPIO_J4_27;
+reg treg_GPIO_J4_28;
+reg treg_GPIO_J4_29;
+reg treg_GPIO_J4_30;
+reg treg_GPIO_J4_31;
+reg treg_GPIO_J4_32;
+reg treg_GPIO_J4_35;
+reg treg_GPIO_J4_36;
+reg treg_GPIO_J4_37;
+reg treg_GPIO_J4_38;
+reg treg_GPIO_J4_39;
+reg treg_GPIO_J4_40;
+reg treg_I2C_SCL;
+reg treg_I2C_SDA;
+reg [4:1] PB;
+reg [3:0] treg_PMOD_A;
+reg [3:0] treg_PMOD_B;
+reg [3:0] treg_PMOD_C;
+reg [3:0] treg_PMOD_D;
+reg [15:0] treg_SDRAM_DQ;
+reg SFLASH_ASDI;
+reg SFLASH_CSn;
+reg treg_SFLASH_DATA;
+reg treg_SFLASH_DCLK;
+reg SYS_CLK;
+reg USER_CLK;
+// wires                                               
+wire AD5681R_LDACn;
+wire AD5681R_RSTn;
+wire AD5681R_SCL;
+wire AD5681R_SDA;
+wire AD5681R_SYNCn;
+wire ADT7420_SCL;
+wire ADT7420_SDA;
+wire ADXL362_CS;
+wire ADXL362_MOSI;
+wire ADXL362_SCLK;
+wire EG_P1;
+wire EG_P2;
+wire EG_P3;
+wire EG_P4;
+wire EG_P5;
+wire EG_P6;
+wire EG_P7;
+wire EG_P8;
+wire EG_P9;
+wire EG_P10;
+wire EG_P11;
+wire EG_P12;
+wire EG_P13;
+wire EG_P14;
+wire EG_P15;
+wire EG_P16;
+wire EG_P17;
+wire EG_P18;
+wire EG_P19;
+wire EG_P20;
+wire EG_P21;
+wire EG_P22;
+wire EG_P23;
+wire EG_P24;
+wire EG_P25;
+wire EG_P26;
+wire EG_P27;
+wire EG_P28;
+wire EG_P29;
+wire EG_P35;
+wire EG_P36;
+wire EG_P37;
+wire EG_P38;
+wire EG_P39;
+wire EG_P40;
+wire EG_P41;
+wire EG_P42;
+wire EG_P43;
+wire EG_P44;
+wire EG_P45;
+wire EG_P46;
+wire EG_P47;
+wire EG_P48;
+wire EG_P49;
+wire EG_P50;
+wire EG_P51;
+wire EG_P52;
+wire EG_P53;
+wire EG_P54;
+wire EG_P55;
+wire EG_P56;
+wire EG_P57;
+wire EG_P58;
+wire EG_P59;
+wire EG_P60;
+wire GPIO_01;
+wire GPIO_02;
+wire GPIO_03;
+wire GPIO_04;
+wire GPIO_05;
+wire GPIO_06;
+wire GPIO_07;
+wire GPIO_08;
+wire GPIO_09;
+wire GPIO_10;
+wire GPIO_11;
+wire GPIO_12;
+wire GPIO_A;
+wire GPIO_B;
+wire GPIO_J3_15;
+wire GPIO_J3_16;
+wire GPIO_J3_17;
+wire GPIO_J3_18;
+wire GPIO_J3_19;
+wire GPIO_J3_20;
+wire GPIO_J3_21;
+wire GPIO_J3_22;
+wire GPIO_J3_23;
+wire GPIO_J3_24;
+wire GPIO_J3_25;
+wire GPIO_J3_26;
+wire GPIO_J3_27;
+wire GPIO_J3_28;
+wire GPIO_J3_31;
+wire GPIO_J3_32;
+wire GPIO_J3_33;
+wire GPIO_J3_34;
+wire GPIO_J3_35;
+wire GPIO_J3_36;
+wire GPIO_J3_37;
+wire GPIO_J3_38;
+wire GPIO_J3_39;
+wire GPIO_J3_40;
+wire GPIO_J4_11;
+wire GPIO_J4_12;
+wire GPIO_J4_13;
+wire GPIO_J4_14;
+wire GPIO_J4_15;
+wire GPIO_J4_16;
+wire GPIO_J4_19;
+wire GPIO_J4_20;
+wire GPIO_J4_21;
+wire GPIO_J4_22;
+wire GPIO_J4_23;
+wire GPIO_J4_24;
+wire GPIO_J4_27;
+wire GPIO_J4_28;
+wire GPIO_J4_29;
+wire GPIO_J4_30;
+wire GPIO_J4_31;
+wire GPIO_J4_32;
+wire GPIO_J4_35;
+wire GPIO_J4_36;
+wire GPIO_J4_37;
+wire GPIO_J4_38;
+wire GPIO_J4_39;
+wire GPIO_J4_40;
+wire I2C_SCL;
+wire I2C_SDA;
+wire [3:0] PMOD_A;
+wire [3:0] PMOD_B;
+wire [3:0] PMOD_C;
+wire [3:0] PMOD_D;
+wire RESET_EXPn;
+wire [12:0] SDRAM_A;
+wire [1:0] SDRAM_BA;
+wire SDRAM_CASn;
+wire SDRAM_CKE;
+wire SDRAM_CLK;
+wire SDRAM_CSn;
+wire [15:0] SDRAM_DQ;
+wire SDRAM_DQMH;
+wire SDRAM_DQML;
+wire SDRAM_RASn;
+wire SDRAM_WEn;
+wire SFLASH_DATA;
+wire SFLASH_DCLK;
+wire [8:1] USER_LED;
+
+wire sampler;                             
+
+// assign statements (if any)                          
+assign ADT7420_SCL = treg_ADT7420_SCL;
+assign ADT7420_SDA = treg_ADT7420_SDA;
+assign EG_P1 = treg_EG_P1;
+assign EG_P2 = treg_EG_P2;
+assign EG_P3 = treg_EG_P3;
+assign EG_P4 = treg_EG_P4;
+assign EG_P5 = treg_EG_P5;
+assign EG_P6 = treg_EG_P6;
+assign EG_P7 = treg_EG_P7;
+assign EG_P8 = treg_EG_P8;
+assign EG_P9 = treg_EG_P9;
+assign EG_P10 = treg_EG_P10;
+assign EG_P11 = treg_EG_P11;
+assign EG_P12 = treg_EG_P12;
+assign EG_P13 = treg_EG_P13;
+assign EG_P14 = treg_EG_P14;
+assign EG_P15 = treg_EG_P15;
+assign EG_P16 = treg_EG_P16;
+assign EG_P17 = treg_EG_P17;
+assign EG_P18 = treg_EG_P18;
+assign EG_P19 = treg_EG_P19;
+assign EG_P20 = treg_EG_P20;
+assign EG_P21 = treg_EG_P21;
+assign EG_P22 = treg_EG_P22;
+assign EG_P23 = treg_EG_P23;
+assign EG_P24 = treg_EG_P24;
+assign EG_P25 = treg_EG_P25;
+assign EG_P26 = treg_EG_P26;
+assign EG_P27 = treg_EG_P27;
+assign EG_P28 = treg_EG_P28;
+assign EG_P29 = treg_EG_P29;
+assign EG_P35 = treg_EG_P35;
+assign EG_P36 = treg_EG_P36;
+assign EG_P37 = treg_EG_P37;
+assign EG_P38 = treg_EG_P38;
+assign EG_P39 = treg_EG_P39;
+assign EG_P40 = treg_EG_P40;
+assign EG_P41 = treg_EG_P41;
+assign EG_P42 = treg_EG_P42;
+assign EG_P43 = treg_EG_P43;
+assign EG_P44 = treg_EG_P44;
+assign EG_P45 = treg_EG_P45;
+assign EG_P46 = treg_EG_P46;
+assign EG_P47 = treg_EG_P47;
+assign EG_P48 = treg_EG_P48;
+assign EG_P49 = treg_EG_P49;
+assign EG_P50 = treg_EG_P50;
+assign EG_P51 = treg_EG_P51;
+assign EG_P52 = treg_EG_P52;
+assign EG_P53 = treg_EG_P53;
+assign EG_P54 = treg_EG_P54;
+assign EG_P55 = treg_EG_P55;
+assign EG_P56 = treg_EG_P56;
+assign EG_P57 = treg_EG_P57;
+assign EG_P58 = treg_EG_P58;
+assign EG_P59 = treg_EG_P59;
+assign EG_P60 = treg_EG_P60;
+assign GPIO_01 = treg_GPIO_01;
+assign GPIO_02 = treg_GPIO_02;
+assign GPIO_03 = treg_GPIO_03;
+assign GPIO_04 = treg_GPIO_04;
+assign GPIO_05 = treg_GPIO_05;
+assign GPIO_06 = treg_GPIO_06;
+assign GPIO_07 = treg_GPIO_07;
+assign GPIO_08 = treg_GPIO_08;
+assign GPIO_09 = treg_GPIO_09;
+assign GPIO_10 = treg_GPIO_10;
+assign GPIO_11 = treg_GPIO_11;
+assign GPIO_12 = treg_GPIO_12;
+assign GPIO_A = treg_GPIO_A;
+assign GPIO_B = treg_GPIO_B;
+assign GPIO_J3_15 = treg_GPIO_J3_15;
+assign GPIO_J3_16 = treg_GPIO_J3_16;
+assign GPIO_J3_17 = treg_GPIO_J3_17;
+assign GPIO_J3_18 = treg_GPIO_J3_18;
+assign GPIO_J3_19 = treg_GPIO_J3_19;
+assign GPIO_J3_20 = treg_GPIO_J3_20;
+assign GPIO_J3_21 = treg_GPIO_J3_21;
+assign GPIO_J3_22 = treg_GPIO_J3_22;
+assign GPIO_J3_23 = treg_GPIO_J3_23;
+assign GPIO_J3_24 = treg_GPIO_J3_24;
+assign GPIO_J3_25 = treg_GPIO_J3_25;
+assign GPIO_J3_26 = treg_GPIO_J3_26;
+assign GPIO_J3_27 = treg_GPIO_J3_27;
+assign GPIO_J3_28 = treg_GPIO_J3_28;
+assign GPIO_J3_31 = treg_GPIO_J3_31;
+assign GPIO_J3_32 = treg_GPIO_J3_32;
+assign GPIO_J3_33 = treg_GPIO_J3_33;
+assign GPIO_J3_34 = treg_GPIO_J3_34;
+assign GPIO_J3_35 = treg_GPIO_J3_35;
+assign GPIO_J3_36 = treg_GPIO_J3_36;
+assign GPIO_J3_37 = treg_GPIO_J3_37;
+assign GPIO_J3_38 = treg_GPIO_J3_38;
+assign GPIO_J3_39 = treg_GPIO_J3_39;
+assign GPIO_J3_40 = treg_GPIO_J3_40;
+assign GPIO_J4_11 = treg_GPIO_J4_11;
+assign GPIO_J4_12 = treg_GPIO_J4_12;
+assign GPIO_J4_13 = treg_GPIO_J4_13;
+assign GPIO_J4_14 = treg_GPIO_J4_14;
+assign GPIO_J4_15 = treg_GPIO_J4_15;
+assign GPIO_J4_16 = treg_GPIO_J4_16;
+assign GPIO_J4_19 = treg_GPIO_J4_19;
+assign GPIO_J4_20 = treg_GPIO_J4_20;
+assign GPIO_J4_21 = treg_GPIO_J4_21;
+assign GPIO_J4_22 = treg_GPIO_J4_22;
+assign GPIO_J4_23 = treg_GPIO_J4_23;
+assign GPIO_J4_24 = treg_GPIO_J4_24;
+assign GPIO_J4_27 = treg_GPIO_J4_27;
+assign GPIO_J4_28 = treg_GPIO_J4_28;
+assign GPIO_J4_29 = treg_GPIO_J4_29;
+assign GPIO_J4_30 = treg_GPIO_J4_30;
+assign GPIO_J4_31 = treg_GPIO_J4_31;
+assign GPIO_J4_32 = treg_GPIO_J4_32;
+assign GPIO_J4_35 = treg_GPIO_J4_35;
+assign GPIO_J4_36 = treg_GPIO_J4_36;
+assign GPIO_J4_37 = treg_GPIO_J4_37;
+assign GPIO_J4_38 = treg_GPIO_J4_38;
+assign GPIO_J4_39 = treg_GPIO_J4_39;
+assign GPIO_J4_40 = treg_GPIO_J4_40;
+assign I2C_SCL = treg_I2C_SCL;
+assign I2C_SDA = treg_I2C_SDA;
+assign PMOD_A = treg_PMOD_A;
+assign PMOD_B = treg_PMOD_B;
+assign PMOD_C = treg_PMOD_C;
+assign PMOD_D = treg_PMOD_D;
+assign SDRAM_DQ = treg_SDRAM_DQ;
+assign SFLASH_DATA = treg_SFLASH_DATA;
+assign SFLASH_DCLK = treg_SFLASH_DCLK;
+BeMicro_MAX10_top i1 (
+// port map - connection between master ports and signals/registers   
+	.AD5681R_LDACn(AD5681R_LDACn),
+	.AD5681R_RSTn(AD5681R_RSTn),
+	.AD5681R_SCL(AD5681R_SCL),
+	.AD5681R_SDA(AD5681R_SDA),
+	.AD5681R_SYNCn(AD5681R_SYNCn),
+	.ADT7420_CT(ADT7420_CT),
+	.ADT7420_INT(ADT7420_INT),
+	.ADT7420_SCL(ADT7420_SCL),
+	.ADT7420_SDA(ADT7420_SDA),
+	.ADXL362_CS(ADXL362_CS),
+	.ADXL362_INT1(ADXL362_INT1),
+	.ADXL362_INT2(ADXL362_INT2),
+	.ADXL362_MISO(ADXL362_MISO),
+	.ADXL362_MOSI(ADXL362_MOSI),
+	.ADXL362_SCLK(ADXL362_SCLK),
+	.AIN(AIN),
+	.EG_P1(EG_P1),
+	.EG_P2(EG_P2),
+	.EG_P3(EG_P3),
+	.EG_P4(EG_P4),
+	.EG_P5(EG_P5),
+	.EG_P6(EG_P6),
+	.EG_P7(EG_P7),
+	.EG_P8(EG_P8),
+	.EG_P9(EG_P9),
+	.EG_P10(EG_P10),
+	.EG_P11(EG_P11),
+	.EG_P12(EG_P12),
+	.EG_P13(EG_P13),
+	.EG_P14(EG_P14),
+	.EG_P15(EG_P15),
+	.EG_P16(EG_P16),
+	.EG_P17(EG_P17),
+	.EG_P18(EG_P18),
+	.EG_P19(EG_P19),
+	.EG_P20(EG_P20),
+	.EG_P21(EG_P21),
+	.EG_P22(EG_P22),
+	.EG_P23(EG_P23),
+	.EG_P24(EG_P24),
+	.EG_P25(EG_P25),
+	.EG_P26(EG_P26),
+	.EG_P27(EG_P27),
+	.EG_P28(EG_P28),
+	.EG_P29(EG_P29),
+	.EG_P35(EG_P35),
+	.EG_P36(EG_P36),
+	.EG_P37(EG_P37),
+	.EG_P38(EG_P38),
+	.EG_P39(EG_P39),
+	.EG_P40(EG_P40),
+	.EG_P41(EG_P41),
+	.EG_P42(EG_P42),
+	.EG_P43(EG_P43),
+	.EG_P44(EG_P44),
+	.EG_P45(EG_P45),
+	.EG_P46(EG_P46),
+	.EG_P47(EG_P47),
+	.EG_P48(EG_P48),
+	.EG_P49(EG_P49),
+	.EG_P50(EG_P50),
+	.EG_P51(EG_P51),
+	.EG_P52(EG_P52),
+	.EG_P53(EG_P53),
+	.EG_P54(EG_P54),
+	.EG_P55(EG_P55),
+	.EG_P56(EG_P56),
+	.EG_P57(EG_P57),
+	.EG_P58(EG_P58),
+	.EG_P59(EG_P59),
+	.EG_P60(EG_P60),
+	.EXP_PRESENT(EXP_PRESENT),
+	.GPIO_01(GPIO_01),
+	.GPIO_02(GPIO_02),
+	.GPIO_03(GPIO_03),
+	.GPIO_04(GPIO_04),
+	.GPIO_05(GPIO_05),
+	.GPIO_06(GPIO_06),
+	.GPIO_07(GPIO_07),
+	.GPIO_08(GPIO_08),
+	.GPIO_09(GPIO_09),
+	.GPIO_10(GPIO_10),
+	.GPIO_11(GPIO_11),
+	.GPIO_12(GPIO_12),
+	.GPIO_A(GPIO_A),
+	.GPIO_B(GPIO_B),
+	.GPIO_J3_15(GPIO_J3_15),
+	.GPIO_J3_16(GPIO_J3_16),
+	.GPIO_J3_17(GPIO_J3_17),
+	.GPIO_J3_18(GPIO_J3_18),
+	.GPIO_J3_19(GPIO_J3_19),
+	.GPIO_J3_20(GPIO_J3_20),
+	.GPIO_J3_21(GPIO_J3_21),
+	.GPIO_J3_22(GPIO_J3_22),
+	.GPIO_J3_23(GPIO_J3_23),
+	.GPIO_J3_24(GPIO_J3_24),
+	.GPIO_J3_25(GPIO_J3_25),
+	.GPIO_J3_26(GPIO_J3_26),
+	.GPIO_J3_27(GPIO_J3_27),
+	.GPIO_J3_28(GPIO_J3_28),
+	.GPIO_J3_31(GPIO_J3_31),
+	.GPIO_J3_32(GPIO_J3_32),
+	.GPIO_J3_33(GPIO_J3_33),
+	.GPIO_J3_34(GPIO_J3_34),
+	.GPIO_J3_35(GPIO_J3_35),
+	.GPIO_J3_36(GPIO_J3_36),
+	.GPIO_J3_37(GPIO_J3_37),
+	.GPIO_J3_38(GPIO_J3_38),
+	.GPIO_J3_39(GPIO_J3_39),
+	.GPIO_J3_40(GPIO_J3_40),
+	.GPIO_J4_11(GPIO_J4_11),
+	.GPIO_J4_12(GPIO_J4_12),
+	.GPIO_J4_13(GPIO_J4_13),
+	.GPIO_J4_14(GPIO_J4_14),
+	.GPIO_J4_15(GPIO_J4_15),
+	.GPIO_J4_16(GPIO_J4_16),
+	.GPIO_J4_19(GPIO_J4_19),
+	.GPIO_J4_20(GPIO_J4_20),
+	.GPIO_J4_21(GPIO_J4_21),
+	.GPIO_J4_22(GPIO_J4_22),
+	.GPIO_J4_23(GPIO_J4_23),
+	.GPIO_J4_24(GPIO_J4_24),
+	.GPIO_J4_27(GPIO_J4_27),
+	.GPIO_J4_28(GPIO_J4_28),
+	.GPIO_J4_29(GPIO_J4_29),
+	.GPIO_J4_30(GPIO_J4_30),
+	.GPIO_J4_31(GPIO_J4_31),
+	.GPIO_J4_32(GPIO_J4_32),
+	.GPIO_J4_35(GPIO_J4_35),
+	.GPIO_J4_36(GPIO_J4_36),
+	.GPIO_J4_37(GPIO_J4_37),
+	.GPIO_J4_38(GPIO_J4_38),
+	.GPIO_J4_39(GPIO_J4_39),
+	.GPIO_J4_40(GPIO_J4_40),
+	.I2C_SCL(I2C_SCL),
+	.I2C_SDA(I2C_SDA),
+	.PB(PB),
+	.PMOD_A(PMOD_A),
+	.PMOD_B(PMOD_B),
+	.PMOD_C(PMOD_C),
+	.PMOD_D(PMOD_D),
+	.RESET_EXPn(RESET_EXPn),
+	.SDRAM_A(SDRAM_A),
+	.SDRAM_BA(SDRAM_BA),
+	.SDRAM_CASn(SDRAM_CASn),
+	.SDRAM_CKE(SDRAM_CKE),
+	.SDRAM_CLK(SDRAM_CLK),
+	.SDRAM_CSn(SDRAM_CSn),
+	.SDRAM_DQ(SDRAM_DQ),
+	.SDRAM_DQMH(SDRAM_DQMH),
+	.SDRAM_DQML(SDRAM_DQML),
+	.SDRAM_RASn(SDRAM_RASn),
+	.SDRAM_WEn(SDRAM_WEn),
+	.SFLASH_ASDI(SFLASH_ASDI),
+	.SFLASH_CSn(SFLASH_CSn),
+	.SFLASH_DATA(SFLASH_DATA),
+	.SFLASH_DCLK(SFLASH_DCLK),
+	.SYS_CLK(SYS_CLK),
+	.USER_CLK(USER_CLK),
+	.USER_LED(USER_LED)
+);
+
+// USER_CLK
+always
+begin
+	USER_CLK = 1'b0;
+	USER_CLK = #5000 1'b1;
+	#5000;
+end 
+
+BeMicro_MAX10_top_vlg_sample_tst tb_sample (
+	.ADT7420_CT(ADT7420_CT),
+	.ADT7420_INT(ADT7420_INT),
+	.ADT7420_SCL(ADT7420_SCL),
+	.ADT7420_SDA(ADT7420_SDA),
+	.ADXL362_INT1(ADXL362_INT1),
+	.ADXL362_INT2(ADXL362_INT2),
+	.ADXL362_MISO(ADXL362_MISO),
+	.AIN(AIN),
+	.EG_P1(EG_P1),
+	.EG_P2(EG_P2),
+	.EG_P3(EG_P3),
+	.EG_P4(EG_P4),
+	.EG_P5(EG_P5),
+	.EG_P6(EG_P6),
+	.EG_P7(EG_P7),
+	.EG_P8(EG_P8),
+	.EG_P9(EG_P9),
+	.EG_P10(EG_P10),
+	.EG_P11(EG_P11),
+	.EG_P12(EG_P12),
+	.EG_P13(EG_P13),
+	.EG_P14(EG_P14),
+	.EG_P15(EG_P15),
+	.EG_P16(EG_P16),
+	.EG_P17(EG_P17),
+	.EG_P18(EG_P18),
+	.EG_P19(EG_P19),
+	.EG_P20(EG_P20),
+	.EG_P21(EG_P21),
+	.EG_P22(EG_P22),
+	.EG_P23(EG_P23),
+	.EG_P24(EG_P24),
+	.EG_P25(EG_P25),
+	.EG_P26(EG_P26),
+	.EG_P27(EG_P27),
+	.EG_P28(EG_P28),
+	.EG_P29(EG_P29),
+	.EG_P35(EG_P35),
+	.EG_P36(EG_P36),
+	.EG_P37(EG_P37),
+	.EG_P38(EG_P38),
+	.EG_P39(EG_P39),
+	.EG_P40(EG_P40),
+	.EG_P41(EG_P41),
+	.EG_P42(EG_P42),
+	.EG_P43(EG_P43),
+	.EG_P44(EG_P44),
+	.EG_P45(EG_P45),
+	.EG_P46(EG_P46),
+	.EG_P47(EG_P47),
+	.EG_P48(EG_P48),
+	.EG_P49(EG_P49),
+	.EG_P50(EG_P50),
+	.EG_P51(EG_P51),
+	.EG_P52(EG_P52),
+	.EG_P53(EG_P53),
+	.EG_P54(EG_P54),
+	.EG_P55(EG_P55),
+	.EG_P56(EG_P56),
+	.EG_P57(EG_P57),
+	.EG_P58(EG_P58),
+	.EG_P59(EG_P59),
+	.EG_P60(EG_P60),
+	.EXP_PRESENT(EXP_PRESENT),
+	.GPIO_01(GPIO_01),
+	.GPIO_02(GPIO_02),
+	.GPIO_03(GPIO_03),
+	.GPIO_04(GPIO_04),
+	.GPIO_05(GPIO_05),
+	.GPIO_06(GPIO_06),
+	.GPIO_07(GPIO_07),
+	.GPIO_08(GPIO_08),
+	.GPIO_09(GPIO_09),
+	.GPIO_10(GPIO_10),
+	.GPIO_11(GPIO_11),
+	.GPIO_12(GPIO_12),
+	.GPIO_A(GPIO_A),
+	.GPIO_B(GPIO_B),
+	.GPIO_J3_15(GPIO_J3_15),
+	.GPIO_J3_16(GPIO_J3_16),
+	.GPIO_J3_17(GPIO_J3_17),
+	.GPIO_J3_18(GPIO_J3_18),
+	.GPIO_J3_19(GPIO_J3_19),
+	.GPIO_J3_20(GPIO_J3_20),
+	.GPIO_J3_21(GPIO_J3_21),
+	.GPIO_J3_22(GPIO_J3_22),
+	.GPIO_J3_23(GPIO_J3_23),
+	.GPIO_J3_24(GPIO_J3_24),
+	.GPIO_J3_25(GPIO_J3_25),
+	.GPIO_J3_26(GPIO_J3_26),
+	.GPIO_J3_27(GPIO_J3_27),
+	.GPIO_J3_28(GPIO_J3_28),
+	.GPIO_J3_31(GPIO_J3_31),
+	.GPIO_J3_32(GPIO_J3_32),
+	.GPIO_J3_33(GPIO_J3_33),
+	.GPIO_J3_34(GPIO_J3_34),
+	.GPIO_J3_35(GPIO_J3_35),
+	.GPIO_J3_36(GPIO_J3_36),
+	.GPIO_J3_37(GPIO_J3_37),
+	.GPIO_J3_38(GPIO_J3_38),
+	.GPIO_J3_39(GPIO_J3_39),
+	.GPIO_J3_40(GPIO_J3_40),
+	.GPIO_J4_11(GPIO_J4_11),
+	.GPIO_J4_12(GPIO_J4_12),
+	.GPIO_J4_13(GPIO_J4_13),
+	.GPIO_J4_14(GPIO_J4_14),
+	.GPIO_J4_15(GPIO_J4_15),
+	.GPIO_J4_16(GPIO_J4_16),
+	.GPIO_J4_19(GPIO_J4_19),
+	.GPIO_J4_20(GPIO_J4_20),
+	.GPIO_J4_21(GPIO_J4_21),
+	.GPIO_J4_22(GPIO_J4_22),
+	.GPIO_J4_23(GPIO_J4_23),
+	.GPIO_J4_24(GPIO_J4_24),
+	.GPIO_J4_27(GPIO_J4_27),
+	.GPIO_J4_28(GPIO_J4_28),
+	.GPIO_J4_29(GPIO_J4_29),
+	.GPIO_J4_30(GPIO_J4_30),
+	.GPIO_J4_31(GPIO_J4_31),
+	.GPIO_J4_32(GPIO_J4_32),
+	.GPIO_J4_35(GPIO_J4_35),
+	.GPIO_J4_36(GPIO_J4_36),
+	.GPIO_J4_37(GPIO_J4_37),
+	.GPIO_J4_38(GPIO_J4_38),
+	.GPIO_J4_39(GPIO_J4_39),
+	.GPIO_J4_40(GPIO_J4_40),
+	.I2C_SCL(I2C_SCL),
+	.I2C_SDA(I2C_SDA),
+	.PB(PB),
+	.PMOD_A(PMOD_A),
+	.PMOD_B(PMOD_B),
+	.PMOD_C(PMOD_C),
+	.PMOD_D(PMOD_D),
+	.SDRAM_DQ(SDRAM_DQ),
+	.SFLASH_ASDI(SFLASH_ASDI),
+	.SFLASH_CSn(SFLASH_CSn),
+	.SFLASH_DATA(SFLASH_DATA),
+	.SFLASH_DCLK(SFLASH_DCLK),
+	.SYS_CLK(SYS_CLK),
+	.USER_CLK(USER_CLK),
+	.sampler_tx(sampler)
+);
+
+BeMicro_MAX10_top_vlg_check_tst tb_out(
+	.AD5681R_LDACn(AD5681R_LDACn),
+	.AD5681R_RSTn(AD5681R_RSTn),
+	.AD5681R_SCL(AD5681R_SCL),
+	.AD5681R_SDA(AD5681R_SDA),
+	.AD5681R_SYNCn(AD5681R_SYNCn),
+	.ADT7420_SCL(ADT7420_SCL),
+	.ADT7420_SDA(ADT7420_SDA),
+	.ADXL362_CS(ADXL362_CS),
+	.ADXL362_MOSI(ADXL362_MOSI),
+	.ADXL362_SCLK(ADXL362_SCLK),
+	.EG_P1(EG_P1),
+	.EG_P2(EG_P2),
+	.EG_P3(EG_P3),
+	.EG_P4(EG_P4),
+	.EG_P5(EG_P5),
+	.EG_P6(EG_P6),
+	.EG_P7(EG_P7),
+	.EG_P8(EG_P8),
+	.EG_P9(EG_P9),
+	.EG_P10(EG_P10),
+	.EG_P11(EG_P11),
+	.EG_P12(EG_P12),
+	.EG_P13(EG_P13),
+	.EG_P14(EG_P14),
+	.EG_P15(EG_P15),
+	.EG_P16(EG_P16),
+	.EG_P17(EG_P17),
+	.EG_P18(EG_P18),
+	.EG_P19(EG_P19),
+	.EG_P20(EG_P20),
+	.EG_P21(EG_P21),
+	.EG_P22(EG_P22),
+	.EG_P23(EG_P23),
+	.EG_P24(EG_P24),
+	.EG_P25(EG_P25),
+	.EG_P26(EG_P26),
+	.EG_P27(EG_P27),
+	.EG_P28(EG_P28),
+	.EG_P29(EG_P29),
+	.EG_P35(EG_P35),
+	.EG_P36(EG_P36),
+	.EG_P37(EG_P37),
+	.EG_P38(EG_P38),
+	.EG_P39(EG_P39),
+	.EG_P40(EG_P40),
+	.EG_P41(EG_P41),
+	.EG_P42(EG_P42),
+	.EG_P43(EG_P43),
+	.EG_P44(EG_P44),
+	.EG_P45(EG_P45),
+	.EG_P46(EG_P46),
+	.EG_P47(EG_P47),
+	.EG_P48(EG_P48),
+	.EG_P49(EG_P49),
+	.EG_P50(EG_P50),
+	.EG_P51(EG_P51),
+	.EG_P52(EG_P52),
+	.EG_P53(EG_P53),
+	.EG_P54(EG_P54),
+	.EG_P55(EG_P55),
+	.EG_P56(EG_P56),
+	.EG_P57(EG_P57),
+	.EG_P58(EG_P58),
+	.EG_P59(EG_P59),
+	.EG_P60(EG_P60),
+	.GPIO_01(GPIO_01),
+	.GPIO_02(GPIO_02),
+	.GPIO_03(GPIO_03),
+	.GPIO_04(GPIO_04),
+	.GPIO_05(GPIO_05),
+	.GPIO_06(GPIO_06),
+	.GPIO_07(GPIO_07),
+	.GPIO_08(GPIO_08),
+	.GPIO_09(GPIO_09),
+	.GPIO_10(GPIO_10),
+	.GPIO_11(GPIO_11),
+	.GPIO_12(GPIO_12),
+	.GPIO_A(GPIO_A),
+	.GPIO_B(GPIO_B),
+	.GPIO_J3_15(GPIO_J3_15),
+	.GPIO_J3_16(GPIO_J3_16),
+	.GPIO_J3_17(GPIO_J3_17),
+	.GPIO_J3_18(GPIO_J3_18),
+	.GPIO_J3_19(GPIO_J3_19),
+	.GPIO_J3_20(GPIO_J3_20),
+	.GPIO_J3_21(GPIO_J3_21),
+	.GPIO_J3_22(GPIO_J3_22),
+	.GPIO_J3_23(GPIO_J3_23),
+	.GPIO_J3_24(GPIO_J3_24),
+	.GPIO_J3_25(GPIO_J3_25),
+	.GPIO_J3_26(GPIO_J3_26),
+	.GPIO_J3_27(GPIO_J3_27),
+	.GPIO_J3_28(GPIO_J3_28),
+	.GPIO_J3_31(GPIO_J3_31),
+	.GPIO_J3_32(GPIO_J3_32),
+	.GPIO_J3_33(GPIO_J3_33),
+	.GPIO_J3_34(GPIO_J3_34),
+	.GPIO_J3_35(GPIO_J3_35),
+	.GPIO_J3_36(GPIO_J3_36),
+	.GPIO_J3_37(GPIO_J3_37),
+	.GPIO_J3_38(GPIO_J3_38),
+	.GPIO_J3_39(GPIO_J3_39),
+	.GPIO_J3_40(GPIO_J3_40),
+	.GPIO_J4_11(GPIO_J4_11),
+	.GPIO_J4_12(GPIO_J4_12),
+	.GPIO_J4_13(GPIO_J4_13),
+	.GPIO_J4_14(GPIO_J4_14),
+	.GPIO_J4_15(GPIO_J4_15),
+	.GPIO_J4_16(GPIO_J4_16),
+	.GPIO_J4_19(GPIO_J4_19),
+	.GPIO_J4_20(GPIO_J4_20),
+	.GPIO_J4_21(GPIO_J4_21),
+	.GPIO_J4_22(GPIO_J4_22),
+	.GPIO_J4_23(GPIO_J4_23),
+	.GPIO_J4_24(GPIO_J4_24),
+	.GPIO_J4_27(GPIO_J4_27),
+	.GPIO_J4_28(GPIO_J4_28),
+	.GPIO_J4_29(GPIO_J4_29),
+	.GPIO_J4_30(GPIO_J4_30),
+	.GPIO_J4_31(GPIO_J4_31),
+	.GPIO_J4_32(GPIO_J4_32),
+	.GPIO_J4_35(GPIO_J4_35),
+	.GPIO_J4_36(GPIO_J4_36),
+	.GPIO_J4_37(GPIO_J4_37),
+	.GPIO_J4_38(GPIO_J4_38),
+	.GPIO_J4_39(GPIO_J4_39),
+	.GPIO_J4_40(GPIO_J4_40),
+	.I2C_SCL(I2C_SCL),
+	.I2C_SDA(I2C_SDA),
+	.PMOD_A(PMOD_A),
+	.PMOD_B(PMOD_B),
+	.PMOD_C(PMOD_C),
+	.PMOD_D(PMOD_D),
+	.RESET_EXPn(RESET_EXPn),
+	.SDRAM_A(SDRAM_A),
+	.SDRAM_BA(SDRAM_BA),
+	.SDRAM_CASn(SDRAM_CASn),
+	.SDRAM_CKE(SDRAM_CKE),
+	.SDRAM_CLK(SDRAM_CLK),
+	.SDRAM_CSn(SDRAM_CSn),
+	.SDRAM_DQ(SDRAM_DQ),
+	.SDRAM_DQMH(SDRAM_DQMH),
+	.SDRAM_DQML(SDRAM_DQML),
+	.SDRAM_RASn(SDRAM_RASn),
+	.SDRAM_WEn(SDRAM_WEn),
+	.SFLASH_DATA(SFLASH_DATA),
+	.SFLASH_DCLK(SFLASH_DCLK),
+	.USER_LED(USER_LED),
+	.sampler_rx(sampler)
+);
+endmodule
+

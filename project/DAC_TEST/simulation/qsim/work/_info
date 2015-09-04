@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\WORKSPACE\max10\PROJECT\DAC_TEST\simulation\qsim
+vBeMicro_MAX10_top
+Z1 IJZNTiI]0Um1<mOQo[R;zG3
+Z2 VcSDW`]]nj`U>Whaj;j9U60
+Z3 dE:\WORKSPACE\max10\PROJECT\DAC_TEST\simulation\qsim
+Z4 w1441355066
+Z5 8DAC_TEST.vo
+Z6 FDAC_TEST.vo
+L0 32
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@be@micro_@m@a@x10_top
+!i10b 1
+Z10 !s100 _@NAWkSQ7;4:`V3CFMU>23
+!s85 0
+Z11 !s108 1441355069.729000
+Z12 !s107 DAC_TEST.vo|
+Z13 !s90 -work|work|DAC_TEST.vo|
+!s101 -O0
+vBeMicro_MAX10_top_vlg_check_tst
+!i10b 1
+!s100 L=A[9N1ga4QMg3Sz29mJe1
+ID;Sk[lPPnDGghT7m5alnK0
+VQJ4e]J?4o;][lQE::TdZg1
+R3
+Z14 w1441355062
+Z15 8Waveform.vwf.vt
+Z16 FWaveform.vwf.vt
+L0 336
+R7
+r1
+!s85 0
+31
+Z17 !s108 1441355070.237000
+Z18 !s107 Waveform.vwf.vt|
+Z19 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R8
+n@be@micro_@m@a@x10_top_vlg_check_tst
+vBeMicro_MAX10_top_vlg_sample_tst
+!i10b 1
+!s100 zG`HzzK2FRV8jj`:FRZM:1
+I^zd[F:4`lX`A;Ikcn]]CW1
+V@j:EodPh=>IG6l>gGJH@E0
+R3
+R14
+R15
+R16
+L0 30
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@be@micro_@m@a@x10_top_vlg_sample_tst
+vBeMicro_MAX10_top_vlg_vec_tst
+!i10b 1
+!s100 FJG[=A813]FAcE0fA=5e>3
+IO5@Xb;eU6ZQd5I[EIePP[1
+VNzjak_3eI4Rok>^ceCC1M3
+R3
+R14
+R15
+R16
+L0 1254
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@be@micro_@m@a@x10_top_vlg_vec_tst

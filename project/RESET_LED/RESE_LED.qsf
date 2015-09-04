@@ -1,0 +1,77 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, the Altera Quartus II License Agreement,
+# the Altera MegaCore Function License Agreement, or other 
+# applicable license agreement, including, without limitation, 
+# that your use is for the sole purpose of programming logic 
+# devices manufactured by Altera and sold by Altera or its 
+# authorized distributors.  Please refer to the applicable 
+# agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 15.0.1 Build 150 06/03/2015 SJ Full Version
+# Date created = 23:00:17  September 03, 2015
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		RESE_LED_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "MAX 10 FPGA" -tag platform
+set_global_assignment -name DEVICE 10M08DAF484C8GES -tag platform
+set_global_assignment -name TOP_LEVEL_ENTITY factory_reset_top
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 15.0.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "23:00:17  SEPTEMBER 03, 2015"
+set_global_assignment -name LAST_QUARTUS_VERSION 15.0.1
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files -tag platform
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0 -tag platform
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85 -tag platform
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 484 -tag platform
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 2 -tag platform
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)" -tag platform
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation -tag platform
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top -tag platform
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top -tag platform
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top -tag platform
+set_location_assignment PIN_M2 -to LED[0] -tag platform
+set_location_assignment PIN_N1 -to LED[1] -tag platform
+set_location_assignment PIN_R2 -to LED[2] -tag platform
+set_location_assignment PIN_T1 -to LED[3] -tag platform
+set_location_assignment PIN_N14 -to clk -tag platform
+set_location_assignment PIN_M1 -to reset_n -tag platform
+set_location_assignment PIN_V4 -to LED[4] -tag platform
+set_location_assignment PIN_T6 -to LED[5] -tag platform
+set_location_assignment PIN_AB4 -to LED[6] -tag platform
+set_location_assignment PIN_AA5 -to LED[7] -tag platform
+set_global_assignment -name SDC_FILE factory_reset_top.sdc -tag platform
+set_global_assignment -name VERILOG_FILE factory_reset_top.v -tag platform
+set_global_assignment -name USE_CONFIGURATION_DEVICE OFF -tag platform
+set_global_assignment -name CRC_ERROR_OPEN_DRAIN OFF -tag platform
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -rise -tag platform
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall -tag platform
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise -tag platform
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall -tag platform
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_global_assignment -name CDF_FILE output_files/Chain1.cdf
+set_location_assignment PIN_R1 -to key_d
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

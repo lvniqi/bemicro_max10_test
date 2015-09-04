@@ -1,0 +1,3 @@
+<platform><name>Reset Factory Settings LED Flash - BeMicro</name><category>Design Example</category><version>0.9</version><acds_version>15.0.0</acds_version><board>BeMicro MAX 10 FPGA Evaluation Kit</board><family>MAX 10</family><device>10M08DA</device><part>10M08DAF484C8GES</part><vendor>Arrow</vendor><description>When generating design .pof files to download into MAX 10 Flash configuration memory, the factory setting design which blinks the LEDs is overwritten.
+
+This design example contains the factory setting .pof file and Verilog source files to restore the out of box settings.</description></platform>
